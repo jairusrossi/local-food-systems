@@ -9,6 +9,8 @@
     <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet'>
     <link href='css/styles.css' rel='stylesheet' />
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src='data/snap.js'></script>
 
 
     <style>
@@ -36,23 +38,7 @@
         </div>
         <div class='col col--12 col--9-ml h180 h-full-ml'>
             <div id="map" class='viewport-twothirds viewport-full-ml bg-blue'></div>
-            <div id='ui-controls'>
-                <!--//creates a user interface-->
-                <label>Choose an asset type:</label>
-                <select name="vacant">
-                    <!--//selects from the database which data is represented- gives this element an id value-->
-                    <option value="VACANT_FOR" selected>vacant units for rent</option>
-                    <!--//default to this category, gives the option to select-->
-                    <option value="VACANT_REN">vacant units, rented not occupied</option>
-                    <!--//gives option to select-->
-                    <option value="VACANT_FO2"> vacant units, for sale only</option>
-                    <!--//gives option to select-->
-                    <option value="VACANT_SOL"> vacant units, sole not occupied</option>
-                    <option value="VACANT_SEA">vacant units used seasonally or for recreational use only</option>
-                    <option value="VACANT_MIG"> vacant units used for migratory workers</option>
-                    <option value="VACANT_OTH"> vacant units, other</option>
-                </select>
-            </div>
+
         </div>
     </div>
 
@@ -61,16 +47,11 @@
     <script async defer src='https://api.mapbox.com/mapbox-assembly/v0.8.0/assembly.js'></script>
     <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
     <script src='js/app.js'></script>
 
-    <script>
-    </script>
 
-
-
-    <script>
-    </script>
 
 </body>
 
