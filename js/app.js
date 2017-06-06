@@ -56,13 +56,21 @@
         var geoJsonLayers = {};
 
         for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
+
             geoJsonLayers[layer] = L.geoJson(stores, {
+
                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, commonStyles);
                 },
                 filter: function (feature) {
-                    if (feature.properties.source[layerInfo[layer].source]) {
-                        return feature;
+
+                    // create shortuts to numbers
+                    var featureNum = feature.properties.source,
+                        layerNum = +layerInfo[layer].source; // convert to number
+
+                    // if this feature is equal to layer source num
+                    if(featureNum === layerNum){
+                        return feature;  // return the feature
                     }
                 },
                 style: function (feature) { //and symbolized according to source where 'layer' in layerInfo is still passed as the argument
