@@ -1,0 +1,21 @@
+/* custom CSS rules */
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+li {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#legend {
+    color: #d8b365;
+}
