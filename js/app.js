@@ -7,7 +7,7 @@
 
 
 
-    function makeMap(error, asset, counties) {
+    function makeMap(error, snapData, counties, infrastructureData) {
 
 
         var map = L.map('map', {
@@ -80,9 +80,11 @@
 
         var geoJsonLayers = {};
 
+        var snapLayer = L.layerGroup().addTo(map); // add empty layergroup to map
+
         for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
 
-            geoJsonLayers[layer] = L.geoJson(asset, {
+            geoJsonLayers[layer] = L.geoJson(snapData, {
 
                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, commonStyles);
@@ -105,7 +107,7 @@
                         //  radius: getRadius(feature.properties.fuel_source[layerInfo[layer].source]) //radius is defined by power generation capacity contained in the 'source' property
                     }
                 }
-            }).addTo(map);
+            }).addTo(snapLayer);
         }
 
         var sourcesLabels = {
@@ -119,18 +121,41 @@
             collapsed: false
         }).addTo(map);
 
+
+        var infrastructureLayer = L.geoJson(infrastructureData);
+
         updateMap(dataLayer);
-        addUI(geoJsonLayers);
+
+
+        addUI(map, snapLayer, infrastructureLayer);
         //        drawLegend(dataLayer);
 
 
     }
     // end makeMap
 
-    function addUI(asset) {
-        $('select[name="asset"]').change(function () {
-            asset = $(this).val();
-            updatePoints(asset); //c
+    function addUI(map, snapLayer, infrastructureLayer) {
+        $('select[name]').change(function () {
+            var asset = $(this).val();
+            console.log(asset) // is either snap or infrastructure
+
+            var tempLayer = L.layerGroup(); // won't add this to map
+
+            // if snap
+            if(asset === "snap") {
+                // remove the infrastructureLayer and add to tempLayer
+                tempLayer.addLayer(infrastructureLayer);
+                map.removeLayer(infrastructureLayer);
+                // add the snapLayer and remove from tempLayer
+                map.addLayer(snapLayer);
+                tempLayer.removeLayer(snapLayer);
+            } else if (asset === "infrastructure") {
+                // to the same thing for tempLayer
+                tempLayer.addLayer(snapLayer);
+                map.removeLayer(snapLayer);
+                map.addLayer(infrastructureLayer);
+                tempLayer.removeLayer(infrastructureLayer);
+            }
         });
     }
 
@@ -154,7 +179,7 @@
                 color: '#ff0000'
             }
 
-            //need to write layer definitions for all the other asset classes - and then recode the GEOJSONs to have different numbers.  
+            //need to write layer definitions for all the other asset classes - and then recode the GEOJSONs to have different numbers.
         };
 
         var geoJsonLayers = {};
