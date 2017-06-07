@@ -121,21 +121,83 @@
 
         updateMap(dataLayer);
         addUI(geoJsonLayers);
-        drawLegend(dataLayer);
+        //        drawLegend(dataLayer);
 
 
     }
     // end makeMap
 
-    function addUi(geoJsonLayers) {
-        $('select[name="asset"]').change(function () { //listens for a change of the element we entitled 'vacant' above.  when there is a change, it triggers the function.
+    function addUI(asset) {
+        $('select[name="asset"]').change(function () {
             asset = $(this).val();
-            updateMap(geoJsonLayers); //changes the global attribute value to whatever you click on. new attribute value is then standardized by the getClassBreaks function.
+            updatePoints(asset); //c
         });
     }
 
+    function updatePoints(asset) {
 
+        var layerInfo = {
+            igaLayer: {
+                source: '2',
+                color: '#3FFA5B'
+            },
+            indepLayer: {
+                source: '3',
+                color: '#D3D3D3'
+            },
+            chainLayer: {
+                source: '1',
+                color: '#FAA23F'
+            },
+            superLayer: {
+                source: '4',
+                color: '#ff0000'
+            }
 
+            //need to write layer definitions for all the other asset classes - and then recode the GEOJSONs to have different numbers.  
+        };
+
+        var geoJsonLayers = {};
+
+        for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
+
+            geoJsonLayers[layer] = L.geoJson(asset, {
+
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, commonStyles);
+                },
+                filter: function (feature) {
+
+                    // create shortuts to numbers
+                    var featureNum = feature.properties.source,
+                        layerNum = +layerInfo[layer].source; // convert to number
+
+                    // if this feature is equal to layer source num
+                    if (featureNum === layerNum) {
+                        return feature; // return the feature
+                    }
+                },
+                style: function (feature) { //and symbolized according to source where 'layer' in layerInfo is still passed as the argument
+                    return {
+                        color: layerInfo[layer].color,
+                        fillColor: layerInfo[layer].color,
+                        //  radius: getRadius(feature.properties.fuel_source[layerInfo[layer].source]) //radius is defined by power generation capacity contained in the 'source' property
+                    }
+                }
+            }).addTo(map);
+        }
+
+        var sourcesLabels = {
+            "<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
+            "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
+            "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
+            "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer
+        }
+
+        L.control.layers(null, sourcesLabels, { //adds a control toggle option in top right of the map
+            collapsed: false
+        }).addTo(map);
+    }
 
 
     function updateMap(dataLayer) {
