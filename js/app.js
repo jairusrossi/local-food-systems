@@ -7,7 +7,7 @@
 
 
 
-    function makeMap(error, stores, counties) {
+    function makeMap(error, asset, counties) {
 
 
         var map = L.map('map', {
@@ -82,7 +82,7 @@
 
         for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
 
-            geoJsonLayers[layer] = L.geoJson(stores, {
+            geoJsonLayers[layer] = L.geoJson(asset, {
 
                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, commonStyles);
@@ -128,8 +128,9 @@
     // end makeMap
 
     function addUi(geoJsonLayers) {
-        $('select[name="assets"]').change(function () { //listens for a change of the element we entitled 'vacant' above.  when there is a change, it triggers the function.
-            attributeValue = $(this).val(); //changes the global attribute value to whatever you click on. new attribute value is then standardized by the getClassBreaks function.
+        $('select[name="asset"]').change(function () { //listens for a change of the element we entitled 'vacant' above.  when there is a change, it triggers the function.
+            asset = $(this).val();
+            updateMap(geoJsonLayers); //changes the global attribute value to whatever you click on. new attribute value is then standardized by the getClassBreaks function.
         });
     }
 
