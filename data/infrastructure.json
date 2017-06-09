@@ -4,16 +4,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "FOOD SERVICE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Mitchell Foods Inc",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "FOOD SERVICE",
+                "Subcategory": "",
+                "Name": "Mitchell Foods Inc",
                 "ADDRESS": "P O Box 1239",
                 "CITY": "Barbourville",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -26,16 +26,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "AGGREGATION/DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Appalachia Wholesale",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "AGGREGATION/DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Appalachia Wholesale",
                 "ADDRESS": "PO Box 1246",
                 "CITY": "Hindman",
                 "STATE": "KY",
                 "ZIP": 41822,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -48,16 +48,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "DAIRY",
-                "COMPANY": "H & L DISTRIBUTORS",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "DAIRY",
+                "Name": "H & L DISTRIBUTORS",
                 "ADDRESS": "PO BOX 432",
                 "CITY": "HARLAN",
                 "STATE": "KY",
                 "ZIP": 40806,
                 "COUNTY": "HARLAN",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -70,16 +70,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Clouse Distributing LLC",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Clouse Distributing LLC",
                 "ADDRESS": "622 North Main Street",
                 "CITY": "Barbourville",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -92,16 +92,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "GENERAL FREIGHT",
-                "COMPANY": "R L MIRACLE DISTRIBUTING CO",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "GENERAL FREIGHT",
+                "Name": "R L MIRACLE DISTRIBUTING CO",
                 "ADDRESS": "PO BOX 667",
                 "CITY": "PINEVILLE",
                 "STATE": "KY",
                 "ZIP": 40977,
                 "COUNTY": "BELL",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -114,16 +114,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Save-A-Lot Distribution Center",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Save-A-Lot Distribution Center",
                 "ADDRESS": "4000 Corporate Dr",
                 "CITY": "Winchester",
                 "STATE": "KY",
                 "ZIP": 40391,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -136,16 +136,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Laurel Grocery Co.",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Laurel Grocery Co.",
                 "ADDRESS": "415 Barbourville Rd",
                 "CITY": "London",
                 "STATE": "KY",
                 "ZIP": 40744,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -158,16 +158,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Houchens Industries",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Houchens Industries",
                 "ADDRESS": "700 Church St",
                 "CITY": "Bowling Green",
                 "STATE": "KY",
                 "ZIP": 42101,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -180,16 +180,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Crosset Co",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Crosset Co",
                 "ADDRESS": "10295 Toebben Dr.",
                 "CITY": "Independence",
                 "STATE": "KY",
                 "ZIP": 41051,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -202,16 +202,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Associated Wholesale Grocers",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Associated Wholesale Grocers",
                 "ADDRESS": "500 S Cartwright St",
                 "CITY": "Goodlettsville",
                 "STATE": "TN",
                 "ZIP": 37072,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -224,16 +224,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Brown Foodservice",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Brown Foodservice",
                 "ADDRESS": "500 E Clayton Ln",
                 "CITY": "Louisa",
                 "STATE": "KY",
                 "ZIP": 41230,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -246,16 +246,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Papania Produce",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Papania Produce",
                 "ADDRESS": "1676 Jaggie Fox Way",
                 "CITY": "Lexington",
                 "STATE": "KY",
                 "ZIP": 40511,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -268,16 +268,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Creation Gardens",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Creation Gardens",
                 "ADDRESS": "2055 Nelson Miller Pkwy",
                 "CITY": "",
                 "STATE": "KY",
                 "ZIP": 40223,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -290,16 +290,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Appalachian Harvest",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Appalachian Harvest",
                 "ADDRESS": "280 Boone Trail. Rd",
                 "CITY": "Duffield",
                 "STATE": "VA",
                 "ZIP": 24244,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -312,16 +312,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Kroger Distribution Center",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Kroger Distribution Center",
                 "ADDRESS": "2000 Nelson Miller Pkwy",
                 "CITY": "Louisville",
                 "STATE": "KY",
                 "ZIP": 40223,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -334,16 +334,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Kroger Distribution Center",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Kroger Distribution Center",
                 "ADDRESS": "6300 Creek Rd",
                 "CITY": "Cincinnati",
                 "STATE": "OH",
                 "ZIP": 45242,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -356,16 +356,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "DISTRIBUTION",
-                "INDUSTRY": "DISTRIBUTION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Food City Distribution Center",
+                "Resource ": "DISTRIBUTION",
+                "Industry": "DISTRIBUTION",
+                "Subcategory": "",
+                "Name": "Food City Distribution Center",
                 "ADDRESS": "26331 Hillman Hwy",
                 "CITY": "Abingdon",
                 "STATE": "VA",
                 "ZIP": 24210,
                 "COUNTY": "",
-                "source": 1
+                "source": 9
             },
             "geometry": {
                 "type": "Point",
@@ -378,16 +378,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Graytful Gardens",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Graytful Gardens",
                 "ADDRESS": "3937 Middle Fork Richland Rd.",
                 "CITY": "Gray",
                 "STATE": "KY",
                 "ZIP": 40734,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -400,16 +400,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Knox Central High School Greenhouse",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Knox Central High School Greenhouse",
                 "ADDRESS": "100 Panther Way",
                 "CITY": "Barbourville",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -422,16 +422,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Vaughn Garden",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Vaughn Garden",
                 "ADDRESS": "155 Queendale Center",
                 "CITY": "Beverly",
                 "STATE": "KY",
                 "ZIP": 40913,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -444,16 +444,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Country Garden Greenhouse",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Country Garden Greenhouse",
                 "ADDRESS": "PO Box 203",
                 "CITY": "Beattyville",
                 "STATE": "KY",
                 "ZIP": 41311,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -466,16 +466,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Don Perkins Green Houses",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Don Perkins Green Houses",
                 "ADDRESS": "3325 Abner Flat Rd",
                 "CITY": "Beattyville",
                 "STATE": "KY",
                 "ZIP": 41311,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -488,16 +488,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "K E C Greenhouse",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "K E C Greenhouse",
                 "ADDRESS": "105 Bentley Road",
                 "CITY": "Salyersville",
                 "STATE": "KY",
                 "ZIP": 41465,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -510,16 +510,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Crockett Greenhouse",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Crockett Greenhouse",
                 "ADDRESS": "96 Greenhouse Rd",
                 "CITY": "West Liberty",
                 "STATE": "KY",
                 "ZIP": 41472,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -532,16 +532,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "High Street Gardens",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "High Street Gardens",
                 "ADDRESS": "717 High Street Upper",
                 "CITY": "Hazard",
                 "STATE": "KY",
                 "ZIP": 41701,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -554,16 +554,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "G's Garden",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "G's Garden",
                 "ADDRESS": "7941 Hwy 931 N",
                 "CITY": "Whitesburg",
                 "STATE": "KY",
                 "ZIP": 41858,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -576,16 +576,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "GREENHOUSE",
-                "INDUSTRY": "GREENHOUSE",
-                "SUBCATEGOR": "GREENHOUSE",
-                "COMPANY": "Glory Gardens & Greenhouse",
+                "Resource ": "GREENHOUSE",
+                "Industry": "GREENHOUSE",
+                "Subcategory": "GREENHOUSE",
+                "Name": "Glory Gardens & Greenhouse",
                 "ADDRESS": "2015 Old Bull Road",
                 "CITY": "Eubank",
                 "STATE": "KY",
                 "ZIP": 42567,
                 "COUNTY": "",
-                "source": 2
+                "source": 10
             },
             "geometry": {
                 "type": "Point",
@@ -598,16 +598,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "MARKET",
-                "INDUSTRY": "LIVESTOCK",
-                "SUBCATEGOR": "Livestock",
-                "COMPANY": "LAUREL LIVESTOCK MARKET",
+                "Resource ": "MARKET",
+                "Industry": "LIVESTOCK",
+                "Subcategory": "Livestock",
+                "Name": "LAUREL LIVESTOCK MARKET",
                 "ADDRESS": "211 RAILROAD ST",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": 40744,
                 "COUNTY": "LAUREL",
-                "source": 3
+                "source": 11
             },
             "geometry": {
                 "type": "Point",
@@ -620,16 +620,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "MARKET",
-                "INDUSTRY": "LIVESTOCK",
-                "SUBCATEGOR": "Livestock",
-                "COMPANY": "WILSONS LIVESTOCK MARKET",
+                "Resource ": "MARKET",
+                "Industry": "LIVESTOCK",
+                "Subcategory": "Livestock",
+                "Name": "WILSONS LIVESTOCK MARKET",
                 "ADDRESS": "1253 S MAIN ST",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": 40744,
                 "COUNTY": "LAUREL",
-                "source": 3
+                "source": 11
             },
             "geometry": {
                 "type": "Point",
@@ -642,16 +642,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "MARKET",
-                "INDUSTRY": "LIVESTOCK",
-                "SUBCATEGOR": "Stockyard",
-                "COMPANY": "LEE CITY STOCKYARDS",
+                "Resource ": "MARKET",
+                "Industry": "LIVESTOCK",
+                "Subcategory": "Stockyard",
+                "Name": "LEE CITY STOCKYARDS",
                 "ADDRESS": "1890 LEE CITY RD",
                 "CITY": "CAMPTON",
                 "STATE": "KY",
                 "ZIP": 41301,
                 "COUNTY": "WOLFE",
-                "source": 3
+                "source": 11
             },
             "geometry": {
                 "type": "Point",
@@ -664,16 +664,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "VALUE ADDED",
-                "SUBCATEGOR": "",
-                "COMPANY": "King Bottling Inc",
+                "Resource ": "PROCESSING",
+                "Industry": "VALUE ADDED",
+                "Subcategory": "",
+                "Name": "King Bottling Inc",
                 "ADDRESS": "6311 Climax Rd",
                 "CITY": "Orlando",
                 "STATE": "KY",
                 "ZIP": 40460,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -686,16 +686,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "DAIRY",
-                "SUBCATEGOR": "DAIRY",
-                "COMPANY": "FLAV-O-RICH INC",
+                "Resource ": "PROCESSING",
+                "Industry": "DAIRY",
+                "Subcategory": "DAIRY",
+                "Name": "FLAV-O-RICH INC",
                 "ADDRESS": "221 E HAL ROGERS PKWY",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": 40471,
                 "COUNTY": "LAUREL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -708,16 +708,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "COMMERCIAL KITCHEN",
-                "SUBCATEGOR": "COMMERCIAL KITCHEN",
-                "COMPANY": "JACKSON REGIONAL FOOD CENTER",
+                "Resource ": "PROCESSING",
+                "Industry": "COMMERCIAL KITCHEN",
+                "Subcategory": "COMMERCIAL KITCHEN",
+                "Name": "JACKSON REGIONAL FOOD CENTER",
                 "ADDRESS": "366 HWY 3443",
                 "CITY": "TYNER",
                 "STATE": "KY",
                 "ZIP": 40486,
                 "COUNTY": "JACKSON",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -730,16 +730,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "MOUNTAIN MEN BEEF JERKY INC",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "MOUNTAIN MEN BEEF JERKY INC",
                 "ADDRESS": "741 HENRY BARTON RD",
                 "CITY": "CORBIN",
                 "STATE": "KY",
                 "ZIP": 40701,
                 "COUNTY": "WHITLEY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -752,16 +752,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "ROARK MEATS LLC",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "ROARK MEATS LLC",
                 "ADDRESS": "6070 N US HIGHWAY 25E",
                 "CITY": "GRAY",
                 "STATE": "KY",
                 "ZIP": 40734,
                 "COUNTY": "KNOX",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -774,16 +774,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "SMITH COAL PROCESSING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "SMITH COAL PROCESSING",
                 "ADDRESS": "3868 MCWHORTER RD",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": 40741,
                 "COUNTY": "LAUREL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -796,16 +796,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "DAIRY",
-                "SUBCATEGOR": "",
-                "COMPANY": "Borden Dairy Company Of Kentucky, Llc",
+                "Resource ": "PROCESSING",
+                "Industry": "DAIRY",
+                "Subcategory": "",
+                "Name": "Borden Dairy Company Of Kentucky, Llc",
                 "ADDRESS": "221 W Hwy 80",
                 "CITY": "London",
                 "STATE": "KY",
                 "ZIP": 40741,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -818,16 +818,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "C & P QUALITY MEATS",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "C & P QUALITY MEATS",
                 "ADDRESS": "90 A J SUTTON RD",
                 "CITY": "WILLIAMSBURG",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -840,16 +840,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "HOUCHENS FOOD GROUP",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "HOUCHENS FOOD GROUP",
                 "ADDRESS": "HIGHWAY 25 W",
                 "CITY": "WILLIAMSBURG",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -862,16 +862,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "WILLIAMSBURG CUSTOM MEAT INC",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "WILLIAMSBURG CUSTOM MEAT INC",
                 "ADDRESS": "1215 AIRPORT RD",
                 "CITY": "WILLIAMSBURG",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -884,16 +884,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "",
-                "COMPANY": "Top Choice Custom Meats",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "",
+                "Name": "Top Choice Custom Meats",
                 "ADDRESS": "90 A J Sutton Rd",
                 "CITY": "Williamsburg",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -906,16 +906,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "MITCHELL FOODS",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "MITCHELL FOODS",
                 "ADDRESS": "PO BOX 1239",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -928,16 +928,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "SPECIAL PROCESSING",
-                "SUBCATEGOR": "",
-                "COMPANY": "Se-Ky Research & Hemp Processing",
+                "Resource ": "PROCESSING",
+                "Industry": "SPECIAL PROCESSING",
+                "Subcategory": "",
+                "Name": "Se-Ky Research & Hemp Processing",
                 "ADDRESS": "1525 Creek Mart Road",
                 "CITY": "Flat Lick",
                 "STATE": "KY",
                 "ZIP": 40935,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -950,16 +950,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "H & M BUTCHERING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "H & M BUTCHERING",
                 "ADDRESS": "553 BOWLING BRANCH RD",
                 "CITY": "MANCHESTER",
                 "STATE": "KY",
                 "ZIP": 40962,
                 "COUNTY": "CLAY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -972,16 +972,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "DAIRY",
-                "SUBCATEGOR": "DAIRY",
-                "COMPANY": "FLAVO O RICH DAIRY LLC",
+                "Resource ": "PROCESSING",
+                "Industry": "DAIRY",
+                "Subcategory": "DAIRY",
+                "Name": "FLAVO O RICH DAIRY LLC",
                 "ADDRESS": "619 N 19TH ST",
                 "CITY": "MIDDLESBORO",
                 "STATE": "KY",
                 "ZIP": 40965,
                 "COUNTY": "BELL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -994,16 +994,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "ARVEYBELL FARM CO",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "ARVEYBELL FARM CO",
                 "ADDRESS": "PO BOX 548",
                 "CITY": "MIDDLESBORO",
                 "STATE": "KY",
                 "ZIP": 40965,
                 "COUNTY": "BELL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1016,16 +1016,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "BLUEGRASS QUALITY MEATS",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "BLUEGRASS QUALITY MEATS",
                 "ADDRESS": "15 SCAFFOLD CANE RD # 15",
                 "CITY": "MT VERNON",
                 "STATE": "KY",
                 "ZIP": 40965,
                 "COUNTY": "ROCKCASTLE",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1038,16 +1038,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "CUMBERLAND GAP PROVISION CO",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "CUMBERLAND GAP PROVISION CO",
                 "ADDRESS": "PO BOX 1797",
                 "CITY": "MIDDLESBORO",
                 "STATE": "KY",
                 "ZIP": 40965,
                 "COUNTY": "BELL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1060,16 +1060,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "VALUE ADDED",
-                "SUBCATEGOR": "",
-                "COMPANY": "Middlesboro Coca-Cola Bottling Works",
+                "Resource ": "PROCESSING",
+                "Industry": "VALUE ADDED",
+                "Subcategory": "",
+                "Name": "Middlesboro Coca-Cola Bottling Works",
                 "ADDRESS": "1324 Cumberland Ave",
                 "CITY": "Middlesboro",
                 "STATE": "KY",
                 "ZIP": 40965,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1082,16 +1082,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "VALUE ADDED",
-                "SUBCATEGOR": "",
-                "COMPANY": "KD's Manufacturing & Distribution",
+                "Resource ": "PROCESSING",
+                "Industry": "VALUE ADDED",
+                "Subcategory": "",
+                "Name": "KD's Manufacturing & Distribution",
                 "ADDRESS": "30 Larison Road",
                 "CITY": "Leeco",
                 "STATE": "KY",
                 "ZIP": 41301,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1104,16 +1104,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "HALSEY'S MEAT PROCESSING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "HALSEY'S MEAT PROCESSING",
                 "ADDRESS": "258 HALSEY LANE",
                 "CITY": "PINE RIDGE",
                 "STATE": "KY",
                 "ZIP": 41360,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1126,16 +1126,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "",
-                "COMPANY": "Appalachian Meats LLC",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "",
+                "Name": "Appalachian Meats LLC",
                 "ADDRESS": "194 Rocky Branch Rd",
                 "CITY": "West Liberty",
                 "STATE": "KY",
                 "ZIP": 41472,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1148,16 +1148,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "",
-                "COMPANY": "JSW Farm dba The Chop Shop",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "",
+                "Name": "JSW Farm dba The Chop Shop",
                 "ADDRESS": "9123 Hwy 7",
                 "CITY": "West Liberty",
                 "STATE": "KY",
                 "ZIP": 41472,
                 "COUNTY": "",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1170,16 +1170,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "COMMERCIAL KITCHEN",
-                "SUBCATEGOR": "COMMERCIAL KITCHEN",
-                "COMPANY": "MARTIN AREA SENIOR CITIZEN'S CENTER KITCHEN",
+                "Resource ": "PROCESSING",
+                "Industry": "COMMERCIAL KITCHEN",
+                "Subcategory": "COMMERCIAL KITCHEN",
+                "Name": "MARTIN AREA SENIOR CITIZEN'S CENTER KITCHEN",
                 "ADDRESS": "11414 MAIN STREET",
                 "CITY": "MARTIN",
                 "STATE": "KY",
                 "ZIP": 41649,
                 "COUNTY": "FLOYD",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1192,16 +1192,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "COMMERCIAL KITCHEN",
-                "SUBCATEGOR": "COMMERCIAL KITCHEN",
-                "COMPANY": "FLOYD COUNTY EXTENSION OFFICE",
+                "Resource ": "PROCESSING",
+                "Industry": "COMMERCIAL KITCHEN",
+                "Subcategory": "COMMERCIAL KITCHEN",
+                "Name": "FLOYD COUNTY EXTENSION OFFICE",
                 "ADDRESS": "3490 KY 321",
                 "CITY": "PRESTONSBURG",
                 "STATE": "KY",
                 "ZIP": 41653,
                 "COUNTY": "FLOYD",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1214,16 +1214,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "DAIRY",
-                "SUBCATEGOR": "DAIRY",
-                "COMPANY": "SOUTHERN BELLE DAIRY CO",
+                "Resource ": "PROCESSING",
+                "Industry": "DAIRY",
+                "Subcategory": "DAIRY",
+                "Name": "SOUTHERN BELLE DAIRY CO",
                 "ADDRESS": "PO BOX 1125",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": "",
                 "COUNTY": "LAUREL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1236,16 +1236,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "CUMBERLAND GAP PROVISION CO",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "CUMBERLAND GAP PROVISION CO",
                 "ADDRESS": "PO BOX 1797",
                 "CITY": "MIDDLESBORO",
                 "STATE": "KY",
                 "ZIP": "",
                 "COUNTY": "BELL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1258,16 +1258,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "MITCHELL FOODS",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "MITCHELL FOODS",
                 "ADDRESS": "PO BOX 1239",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": "",
                 "COUNTY": "KNOX",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1280,16 +1280,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "ROBINSON DISTRIBUTING CO",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "ROBINSON DISTRIBUTING CO",
                 "ADDRESS": "701 ROBINSON RD",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": "",
                 "COUNTY": "LAUREL",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -1302,368 +1302,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "GODS PANTRY",
-                "ADDRESS": "1215 E 4TH ST",
-                "CITY": "LONDON",
-                "STATE": "KY",
-                "ZIP": 40744,
-                "COUNTY": "LAUREL",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -84.0528288,
-          37.1199451
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Spread The Health Appalachia (Knox County Health Department)",
-                "ADDRESS": "308 High Street Apt 201",
-                "CITY": "Barbourille",
-                "STATE": "KY",
-                "ZIP": 40906,
-                "COUNTY": "",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -83.8861489,
-          36.868095
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Red Bird Mission Food Security Project And Farmers' Market",
-                "ADDRESS": "70 Queendale Center",
-                "CITY": "Beverly",
-                "STATE": "KY",
-                "ZIP": 40913,
-                "COUNTY": "",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -83.5272526,
-          37.0104076
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Oneida Baptist Institute",
-                "ADDRESS": "P.O. 67",
-                "CITY": "Oneida",
-                "STATE": "KY",
-                "ZIP": 40972,
-                "COUNTY": "",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -84.5151253,
-          39.1038421
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "APPALACHIAN REACH OUT",
-                "ADDRESS": "2596 ROCKCATSLE CREEK ROAD",
-                "CITY": "INEZ",
-                "STATE": "KY",
-                "ZIP": 41224,
-                "COUNTY": "MARTIN",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.4673582,
-          37.8035903
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "BREAD OF LIFE OUTREACH - JOHNSON/MAGOFFIN COUNTY",
-                "ADDRESS": "7840 KY 40",
-                "CITY": "OIL SPRINGS",
-                "STATE": "KY",
-                "ZIP": 41238,
-                "COUNTY": "JOHNSON",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.9513337,
-          37.8056477
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "FIRST CHURCH OF GOD",
-                "ADDRESS": "205 8TH STREET",
-                "CITY": "PAINTSVILLE",
-                "STATE": "KY",
-                "ZIP": 41240,
-                "COUNTY": "JOHNSON",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.8037166,
-          37.8111438
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "HIGHLAND COMMUNITY FOOD BASKET",
-                "ADDRESS": "821 EUCLID AVENUE",
-                "CITY": "PAINTSVILLE",
-                "STATE": "KY",
-                "ZIP": 41240,
-                "COUNTY": "JOHNSON",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.7868091,
-          37.8170866
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Holy Family Catholic Church",
-                "ADDRESS": "1439 Kentucky 11 South",
-                "CITY": "Booneville",
-                "STATE": "KY",
-                "ZIP": 41314,
-                "COUNTY": "",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -83.7115892,
-          37.4823043
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "HOPE, INC.",
-                "ADDRESS": "850 COLLINS HIGHWAY",
-                "CITY": "PIKEVILLE",
-                "STATE": "KY",
-                "ZIP": 41501,
-                "COUNTY": "PIKE",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.4946174,
-          37.4151617
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "OPERATION EAT JUBILEE CHRISTIAN",
-                "ADDRESS": "1978 SOUTH MAYO TRAIL",
-                "CITY": "PIKEVILLE",
-                "STATE": "KY",
-                "ZIP": 41501,
-                "COUNTY": "PIKE",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.5052992,
-          37.4430898
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "SALT LICK FOOD PANTRY",
-                "ADDRESS": "1499 KY 2029",
-                "CITY": "HUEYSVILLE",
-                "STATE": "KY",
-                "ZIP": 41640,
-                "COUNTY": "FLOYD",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.938202,
-          37.4517143
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "CHRISTIAN APPALCHIAN PROJECT",
-                "ADDRESS": "15 HAPPY HOLLOW",
-                "CITY": "PRESTONSBURG",
-                "STATE": "KY",
-                "ZIP": 41653,
-                "COUNTY": "FLOYD",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.7843423,
-          37.6703779
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "FISHES AND LOAVES",
-                "ADDRESS": "562 UNIVERSITY DRIVE",
-                "CITY": "PRESTONSBURG",
-                "STATE": "KY",
-                "ZIP": 41653,
-                "COUNTY": "FLOYD",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.7809433,
-          37.6819499
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "COMMUNITY FOOD SERVICES",
-                "COMPANY": "MIDDLE CREEK COMMUNITY FOOD BASKET",
-                "ADDRESS": "657 GRANNY FITZ BRANCH",
-                "CITY": "PRESTONSBURG",
-                "STATE": "KY",
-                "ZIP": 41653,
-                "COUNTY": "FLOYD",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -82.8619795,
-          37.6392309
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "SOCIAL ASSISTANCE",
-                "INDUSTRY": "SOCIAL ASSISTANCE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Pfc. Richard L. Vanover Veterans Village, Inc",
-                "ADDRESS": "3080 Elrod Road",
-                "CITY": "Somerset",
-                "STATE": "KY",
-                "ZIP": 42503,
-                "COUNTY": "",
-                "source": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-          -84.470507,
-          37.2503855
-        ]
-            }
-    },
-        {
-            "type": "Feature",
-            "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Estill Co Board of Education",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "",
+                "Name": "Estill Co Board of Education",
                 "ADDRESS": "PO Box 930",
                 "CITY": "Irvine",
                 "STATE": "KY",
                 "ZIP": 40336,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1676,16 +1324,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "ROCKCASTLE COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "ROCKCASTLE COUNTY EXTENSION AGENCY",
                 "ADDRESS": "1050 WEST MAIN ST",
                 "CITY": "MT VERNON",
                 "STATE": "KY",
                 "ZIP": 40419,
                 "COUNTY": "ROCKCASTLE",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1698,16 +1346,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "JACKSON COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "JACKSON COUNTY EXTENSION AGENCY",
                 "ADDRESS": "1408 MAIN ST S",
                 "CITY": "MCKEE",
                 "STATE": "KY",
                 "ZIP": 40447,
                 "COUNTY": "JACKSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1720,16 +1368,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "RURAL DEVELOPMENT",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "RURAL DEVELOPMENT",
                 "ADDRESS": "PO BOX 1179",
                 "CITY": "MCKEE",
                 "STATE": "KY",
                 "ZIP": 40447,
                 "COUNTY": "JACKSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1742,16 +1390,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "US CONSOLIDATED FARM SVC AGCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "US CONSOLIDATED FARM SVC AGCY",
                 "ADDRESS": "PO BOX 1179",
                 "CITY": "MCKEE",
                 "STATE": "KY",
                 "ZIP": 40447,
                 "COUNTY": "JACKSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1764,16 +1412,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Jackson County High School FFA - Agriculture Department",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "",
+                "Name": "Jackson County High School FFA - Agriculture Department",
                 "ADDRESS": "562 Educational Mountain Drive PO Box 427",
                 "CITY": "McKee",
                 "STATE": "KY",
                 "ZIP": 40447,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1786,16 +1434,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "FSA SERVICE CENTER",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "FSA SERVICE CENTER",
                 "ADDRESS": "151 ANDOVER LN",
                 "CITY": "MT VERNON",
                 "STATE": "KY",
                 "ZIP": 40456,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1808,16 +1456,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "",
-                "COMPANY": "Appalachia- Science In The Public Interest",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "",
+                "Name": "Appalachia- Science In The Public Interest",
                 "ADDRESS": "50 Lair St.",
                 "CITY": "Mt Vernon",
                 "STATE": "KY",
                 "ZIP": 40456,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1830,16 +1478,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "",
-                "COMPANY": "Growing Warriors",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "",
+                "Name": "Growing Warriors",
                 "ADDRESS": "50 Lair St",
                 "CITY": "Mt Vernon",
                 "STATE": "KY",
                 "ZIP": 40456,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1852,16 +1500,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "LAUREL COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "LAUREL COUNTY EXTENSION AGENCY",
                 "ADDRESS": "200 COUNTY EXTENSION RD",
                 "CITY": "LONDON",
                 "STATE": "KY",
                 "ZIP": 40744,
                 "COUNTY": "LAUREL",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1874,16 +1522,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AQUACULTURE",
-                "SUBCATEGOR": "FISH",
-                "COMPANY": "JONES FISH HATCHERY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AQUACULTURE",
+                "Subcategory": "FISH",
+                "Name": "JONES FISH HATCHERY",
                 "ADDRESS": "1057 HIGHWAY 26",
                 "CITY": "WILLIAMSBURG",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1896,16 +1544,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "WHITLEY COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "WHITLEY COUNTY EXTENSION AGENCY",
                 "ADDRESS": "4275 US 25W N",
                 "CITY": "WILLIAMSBURG",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1918,16 +1566,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "HARLAN COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "HARLAN COUNTY EXTENSION AGENCY",
                 "ADDRESS": "519 SOUTH MAIN ST",
                 "CITY": "HARLAN",
                 "STATE": "KY",
                 "ZIP": 40831,
                 "COUNTY": "HARLAN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1940,16 +1588,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "US AGRICULTURAL DEPT",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "US AGRICULTURAL DEPT",
                 "ADDRESS": "106 S CUMBERLAND AVE",
                 "CITY": "HARLAN",
                 "STATE": "KY",
                 "ZIP": 40831,
                 "COUNTY": "HARLAN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1962,16 +1610,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "KNOX COUNTY AGRICULTURE EXT",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "KNOX COUNTY AGRICULTURE EXT",
                 "ADDRESS": "215 TREUHAFT BLVD # 7",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -1984,16 +1632,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "KNOX COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "KNOX COUNTY EXTENSION AGENCY",
                 "ADDRESS": "215 TREUHAFT BOULEVARD SUITE 7",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2006,16 +1654,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "FSA SERVICE CENTER",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "FSA SERVICE CENTER",
                 "ADDRESS": "34 SPRING AVE",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2028,16 +1676,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "US AGRICULTURAL DEPT",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "US AGRICULTURAL DEPT",
                 "ADDRESS": "34 SPRING AVE",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2050,16 +1698,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "US CONSOLIDATED FARM SVC AGCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "US CONSOLIDATED FARM SVC AGCY",
                 "ADDRESS": "209 N US HIGHWAY 25 E",
                 "CITY": "BARBOURVILLE",
                 "STATE": "KY",
                 "ZIP": 40906,
                 "COUNTY": "KNOX",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2072,16 +1720,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "CLAY COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "CLAY COUNTY EXTENSION AGENCY",
                 "ADDRESS": "69 JAMESON RD",
                 "CITY": "MANCHESTER",
                 "STATE": "KY",
                 "ZIP": 40962,
                 "COUNTY": "CLAY",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2094,16 +1742,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "US AGRICULTURAL DEPT",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "US AGRICULTURAL DEPT",
                 "ADDRESS": "100 COURT ST",
                 "CITY": "MANCHESTER",
                 "STATE": "KY",
                 "ZIP": 40962,
                 "COUNTY": "CLAY",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2116,16 +1764,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "BELL COUNTY EXTENSION AGENCY",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "BELL COUNTY EXTENSION AGENCY",
                 "ADDRESS": "101 COURTHOUESE SQ",
                 "CITY": "PINEVILLE",
                 "STATE": "KY",
                 "ZIP": 40977,
                 "COUNTY": "BELL",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2138,16 +1786,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "APICULTURE",
-                "SUBCATEGOR": "APICULTURE",
-                "COMPANY": "MARTIN COUNTY BEEKEEPERS ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "APICULTURE",
+                "Subcategory": "APICULTURE",
+                "Name": "MARTIN COUNTY BEEKEEPERS ASSOCIATION",
                 "ADDRESS": "9 HOLY STREET",
                 "CITY": "INEZ",
                 "STATE": "KY",
                 "ZIP": 41224,
                 "COUNTY": "MARTIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2160,16 +1808,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "MARTIN COUNTY AGRICULTURE EXTENSION OFFICE",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "MARTIN COUNTY AGRICULTURE EXTENSION OFFICE",
                 "ADDRESS": "9 HOLY STREET",
                 "CITY": "INEZ",
                 "STATE": "KY",
                 "ZIP": 41224,
                 "COUNTY": "MARTIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2182,16 +1830,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "",
                 "ADDRESS": "9 HOLY STREET",
                 "CITY": "INEZ",
                 "STATE": "KY",
                 "ZIP": 41224,
                 "COUNTY": "MARTIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2204,16 +1852,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "JOHNSON COUNTY AGRICULTURE EXTENSION OFFICE",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "JOHNSON COUNTY AGRICULTURE EXTENSION OFFICE",
                 "ADDRESS": "826 F.M.STAFFORD AVE.",
                 "CITY": "PAINTSVILLE",
                 "STATE": "KY",
                 "ZIP": 41240,
                 "COUNTY": "JOHNSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2226,16 +1874,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "AGRICULTURAL MARKETING",
-                "COMPANY": "USDA KENTUCKY SERVICE CENTER",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "AGRICULTURAL MARKETING",
+                "Name": "USDA KENTUCKY SERVICE CENTER",
                 "ADDRESS": "100 SCOTT PERRY DRIVE",
                 "CITY": "PAINTSVILLE",
                 "STATE": "KY",
                 "ZIP": 41240,
                 "COUNTY": "JOHNSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2248,16 +1896,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "FFA PROGRAM",
-                "COMPANY": "JOHNSON CENTRAL HIGH SCHOOL FFA ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "FFA PROGRAM",
+                "Name": "JOHNSON CENTRAL HIGH SCHOOL FFA ASSOCIATION",
                 "ADDRESS": "257 NORTH MAYO TRAIL",
                 "CITY": "PAINTSVILLE",
                 "STATE": "KY",
                 "ZIP": 41240,
                 "COUNTY": "JOHNSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2270,16 +1918,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "4H PROGRAM",
-                "COMPANY": "JOHNSON COUNTY 4-H ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "4H PROGRAM",
+                "Name": "JOHNSON COUNTY 4-H ASSOCIATION",
                 "ADDRESS": "826 F..M.STAFFORD AVE.",
                 "CITY": "PAINTSVILLE",
                 "STATE": "KY",
                 "ZIP": 41240,
                 "COUNTY": "JOHNSON",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2292,16 +1940,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Owsley County School Nutrition Program",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "",
+                "Name": "Owsley County School Nutrition Program",
                 "ADDRESS": "177 Shepheds Lane Road",
                 "CITY": "Booneville",
                 "STATE": "KY",
                 "ZIP": 41314,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2314,16 +1962,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "",
-                "COMPANY": "Breathitt Co. High School Agriculture Dept.",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "",
+                "Name": "Breathitt Co. High School Agriculture Dept.",
                 "ADDRESS": "2307 Bobcat Lane",
                 "CITY": "Jackson",
                 "STATE": "KY",
                 "ZIP": 41339,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2336,16 +1984,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "APICULTURE",
-                "SUBCATEGOR": "APICULTURE",
-                "COMPANY": "MAGOFFIN BEEKEEPERS ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "APICULTURE",
+                "Subcategory": "APICULTURE",
+                "Name": "MAGOFFIN BEEKEEPERS ASSOCIATION",
                 "ADDRESS": "15 ROUCKHOUSE FORK ROAD",
                 "CITY": "SALYERSVILLE",
                 "STATE": "KY",
                 "ZIP": 41465,
                 "COUNTY": "MAGOFFIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2358,16 +2006,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "MAGOFFIN COUNTY AGRICULTURE EXTENSION OFFICE",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "MAGOFFIN COUNTY AGRICULTURE EXTENSION OFFICE",
                 "ADDRESS": "15 ROCKHOUSE FORK ROAD",
                 "CITY": "SALYERSVILLE",
                 "STATE": "KY",
                 "ZIP": 41465,
                 "COUNTY": "MAGOFFIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2380,16 +2028,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "",
                 "ADDRESS": "15 ROCKHOUSE FORK ROAD",
                 "CITY": "SALYERSVILLE",
                 "STATE": "KY",
                 "ZIP": 41465,
                 "COUNTY": "MAGOFFIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2402,16 +2050,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "FFA PROGRAM",
-                "COMPANY": "MAGOFFIN COUNTY HIGH SCHOOL FFA ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "FFA PROGRAM",
+                "Name": "MAGOFFIN COUNTY HIGH SCHOOL FFA ASSOCIATION",
                 "ADDRESS": "201 HORNET DRIVE",
                 "CITY": "SALYERSVILLE",
                 "STATE": "KY",
                 "ZIP": 41465,
                 "COUNTY": "MAGOFFIN",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2424,16 +2072,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "APICULTURE",
-                "SUBCATEGOR": "APICULTURE",
-                "COMPANY": "PIKE COUNTY BEEKEEPERS ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "APICULTURE",
+                "Subcategory": "APICULTURE",
+                "Name": "PIKE COUNTY BEEKEEPERS ASSOCIATION",
                 "ADDRESS": "148 TRIVETTE DRIVE",
                 "CITY": "PIKEVILLE",
                 "STATE": "KY",
                 "ZIP": 41501,
                 "COUNTY": "PIKE",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2446,16 +2094,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "PIKE COUNTY AGRICULTURE EXTENSION OFFICE",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "PIKE COUNTY AGRICULTURE EXTENSION OFFICE",
                 "ADDRESS": "148 TRIVETTE DRIVE",
                 "CITY": "PIKEVILLE",
                 "STATE": "KY",
                 "ZIP": 41501,
                 "COUNTY": "PIKE",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2468,16 +2116,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "",
                 "ADDRESS": "148 TRIVETTE DRIVE",
                 "CITY": "PIKEVILLE",
                 "STATE": "KY",
                 "ZIP": 41501,
                 "COUNTY": "PIKE",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2490,16 +2138,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "APICULTURE",
-                "SUBCATEGOR": "APICULTURE",
-                "COMPANY": "FLOYD COUNTY BEEKEEPERS ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "APICULTURE",
+                "Subcategory": "APICULTURE",
+                "Name": "FLOYD COUNTY BEEKEEPERS ASSOCIATION",
                 "ADDRESS": "921 SOUTH LAKE DRIVE",
                 "CITY": "PRESTONSBURG",
                 "STATE": "KY",
                 "ZIP": 41653,
                 "COUNTY": "FLOYD",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2512,16 +2160,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "AGRICULTURAL EXTENSION OFFICE",
-                "COMPANY": "FLOYD COUNTY AGRICULTURE EXTENSION OFFICE",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "AGRICULTURAL EXTENSION OFFICE",
+                "Name": "FLOYD COUNTY AGRICULTURE EXTENSION OFFICE",
                 "ADDRESS": "3490 KY 321",
                 "CITY": "PRESTONSBURG",
                 "STATE": "KY",
                 "ZIP": 41653,
                 "COUNTY": "FLOYD",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2534,16 +2182,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "4H PROGRAM",
-                "COMPANY": "FLOYD COUNTY 4-H ASSOCIATION",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "4H PROGRAM",
+                "Name": "FLOYD COUNTY 4-H ASSOCIATION",
                 "ADDRESS": "3490 KY 321",
                 "CITY": "PRESTONSBURG",
                 "STATE": "KY",
                 "ZIP": 41653,
                 "COUNTY": "FLOYD",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2556,16 +2204,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "UNIVERSITY/COLLEGE AG PROGRAM",
-                "COMPANY": "MOREHEAD STATE UNIVERSITY DEPARTMENT OF AGRICULTURAL SCIENCES",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "UNIVERSITY/COLLEGE AG PROGRAM",
+                "Name": "MOREHEAD STATE UNIVERSITY DEPARTMENT OF AGRICULTURAL SCIENCES",
                 "ADDRESS": "6 BERT T. COMBS DRIVE",
                 "CITY": "PRESTONSBURG",
                 "STATE": "KY",
                 "ZIP": 41653,
                 "COUNTY": "FLOYD",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2578,16 +2226,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "EDUCATION",
-                "SUBCATEGOR": "",
-                "COMPANY": "East Kentucky Heifer Development Program and Sale",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "EDUCATION",
+                "Subcategory": "",
+                "Name": "East Kentucky Heifer Development Program and Sale",
                 "ADDRESS": "933 Perry Park Rd",
                 "CITY": "Hazard",
                 "STATE": "KY",
                 "ZIP": 41701,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2600,16 +2248,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "AGRICULTURAL EXTENSION OFFICE",
-                "SUBCATEGOR": "",
-                "COMPANY": "Leslie County Extension Service",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "AGRICULTURAL EXTENSION OFFICE",
+                "Subcategory": "",
+                "Name": "Leslie County Extension Service",
                 "ADDRESS": "22045 Main Street #514",
                 "CITY": "Hyden",
                 "STATE": "KY",
                 "ZIP": 41749,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2622,16 +2270,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "",
-                "COMPANY": "Pulaski County Livestock Club",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "",
+                "Name": "Pulaski County Livestock Club",
                 "ADDRESS": "P.O. Box 720",
                 "CITY": "Somerset",
                 "STATE": "KY",
                 "ZIP": 42502,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2644,16 +2292,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "TECHNICAL ASSISTANCE",
-                "INDUSTRY": "ADVOCACY",
-                "SUBCATEGOR": "",
-                "COMPANY": "Kentucky Club Lamb Association",
+                "Resource ": "TECHNICAL ASSISTANCE",
+                "Industry": "ADVOCACY",
+                "Subcategory": "",
+                "Name": "Kentucky Club Lamb Association",
                 "ADDRESS": "100 Sycamore Dr.",
                 "CITY": "Bronston",
                 "STATE": "KY",
                 "ZIP": 42518,
                 "COUNTY": "",
-                "source": 6
+                "source": 13
             },
             "geometry": {
                 "type": "Point",
@@ -2666,16 +2314,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "H & M BUTCHERING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "H & M BUTCHERING",
                 "ADDRESS": "",
                 "CITY": "Manchester",
                 "STATE": "KY",
                 "ZIP": 40962,
                 "COUNTY": "CLAY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -2688,16 +2336,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "HALSEY'S MEAT PROCESSING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "HALSEY'S MEAT PROCESSING",
                 "ADDRESS": "",
                 "CITY": "Pine Ridge",
                 "STATE": "KY",
                 "ZIP": 41360,
                 "COUNTY": "WOLFE",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -2710,16 +2358,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "The Chop Shop",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "The Chop Shop",
                 "ADDRESS": "126 KY 205 North",
                 "CITY": "Hazel Green",
                 "STATE": "KY",
                 "ZIP": 41332,
                 "COUNTY": "WOLFE",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -2732,16 +2380,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "Top Choice Custom Meats",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "Top Choice Custom Meats",
                 "ADDRESS": "90 A J Sutton Rd",
                 "CITY": "Williamsburg",
                 "STATE": "KY",
                 "ZIP": 40769,
                 "COUNTY": "WHITLEY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -2754,16 +2402,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "PERKINS MEAT PROCESSING",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "PERKINS MEAT PROCESSING",
                 "ADDRESS": "503 Leamond Richmond Rd",
                 "CITY": "Pine Knot",
                 "STATE": "KY",
                 "ZIP": 42635,
                 "COUNTY": "MCCREARY",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",
@@ -2776,16 +2424,16 @@
         {
             "type": "Feature",
             "properties": {
-                "RESOURCE T": "PROCESSING",
-                "INDUSTRY": "MEAT PROCESSING",
-                "SUBCATEGOR": "ANIMAL SLAUGHTERING",
-                "COMPANY": "Slone Meat Company",
+                "Resource ": "PROCESSING",
+                "Industry": "MEAT PROCESSING",
+                "Subcategory": "ANIMAL SLAUGHTERING",
+                "Name": "Slone Meat Company",
                 "ADDRESS": "200 Buckeye Br",
                 "CITY": "Blue River",
                 "STATE": "KY",
                 "ZIP": 41607,
                 "COUNTY": "FLOYD ",
-                "source": 4
+                "source": 12
             },
             "geometry": {
                 "type": "Point",

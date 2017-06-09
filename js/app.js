@@ -3,11 +3,11 @@
     d3.queue().defer(d3.json, "data/snap.json")
         .defer(d3.json, "https://jairusrossi.carto.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM local_food_counties WHERE state='21'")
         .defer(d3.json, 'data/infrastructure.json')
+        .defer(d3.json, 'data/dtc.geojson')
         .await(makeMap)
 
 
-
-    function makeMap(error, snapData, counties, infrastructureData) {
+    function makeMap(error, snapData, counties, infrastructureData, dtcData) {
 
 
         var map = L.map('map', {
@@ -35,7 +35,8 @@
                 return L.circleMarker(ll, {
                     opacity: 1,
                     weight: 2,
-                    fillOpacity: .3
+                    fillOpacity: .3,
+                    color: layerInfo[layer].color,
                 });
             }
         };
@@ -63,7 +64,48 @@
             superLayer: {
                 source: '4',
                 color: '#ff0000'
+            },
+            farmLayer: {
+                source: '5',
+                color: '#3FFA5B'
+            },
+            vaLayer: {
+                source: '6',
+                color: '#D3D3D3'
+            },
+            miscLayer: {
+                source: '7',
+                color: '#FAA23F'
+            },
+            marketLayer: {
+                source: '8',
+                color: '#ff0000'
+            },
+            distLayer: {
+                source: '9',
+                color: '#3FFA5B'
+            },
+            greenLayer: {
+                source: '10',
+                color: '#D3D3D3'
+            },
+            auctionLayer: {
+                source: '11',
+                color: '#FAA23F'
+            },
+            processLayer: {
+                source: '12',
+                color: '#ff0000'
+            },
+            techLayer: {
+                source: '13',
+                color: '#FAA23F'
+            },
+            banksLayer: {
+                source: '14',
+                color: '#ff0000'
             }
+
         };
 
         var dataLayer = L.geoJson(counties, {
@@ -110,77 +152,189 @@
             }).addTo(snapLayer);
         }
 
-        var sourcesLabels = {
+
+
+        snapLabels = {
+
             "<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
             "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
             "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
             "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer
+
+        }
+        dtcLabels = {
+            "<b style='color:#3FFA5B'>Farm</b>": geoJsonLayers.farmLayer,
+            "<b style='color:#D3D3D3'>Value-Added</b>": geoJsonLayers.vaLayer,
+            "<b style='color:#FAA23F'>Apiary, Orchard, Vineyard</b>": geoJsonLayers.miscLayer,
+            "<b style='color:#ff0000'>Market</b>": geoJsonLayers.marketLayer,
+
         }
 
-        L.control.layers(null, sourcesLabels, { //adds a control toggle option in top right of the map
+        infraLabels = {
+            "<b style='color:#3FFA5B'>Distribution</b>": geoJsonLayers.distLayer,
+            "<b style='color:#D3D3D3'>Greenhouse</b>": geoJsonLayers.greenLayer,
+            "<b style='color:#FAA23F'>Auction, Stockyard</b>": geoJsonLayers.auctionLayer,
+            "<b style='color:#ff0000'>Processing</b>": geoJsonLayers.processLayer,
+            "<b style='color:#FAA23F'>Technical Assistance</b>": geoJsonLayers.techLayer
+                /*"<b style='color:#ff0000'>Food Banks</b>": geoJsonLayers.banksLayer */
+        }
+
+
+        /*"<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
+        "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
+        "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
+        "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer
+            "<b style='color:#3FFA5B'>Farm</b>": geoJsonLayers.farmLayer,
+            "<b style='color:#D3D3D3'>Value-Added</b>": geoJsonLayers.vaLayer,
+            "<b style='color:#FAA23F'>Apiary, Orchard, Vineyard</b>": geoJsonLayers.miscLayer,
+            "<b style='color:#ff0000'>Market</b>": geoJsonLayers.marketLayer,
+            "<b style='color:#3FFA5B'>Distribution</b>": geoJsonLayers.distLayer,
+            "<b style='color:#D3D3D3'>Greenhouse</b>": geoJsonLayers.greenLayer,
+            "<b style='color:#FAA23F'>Auction, Stockyard</b>": geoJsonLayers.auctionLayer,
+            "<b style='color:#ff0000'>Processing</b>": geoJsonLayers.processLayer,
+            "<b style='color:#FAA23F'>Technical Assistance</b>": geoJsonLayers.techLayer,
+            "<b style='color:#ff0000'>Food Banks</b>": geoJsonLayers.banksLayer*/
+
+
+
+        L.control.layers(null, snapLabels, { //adds a control toggle option in top right of the map
             collapsed: false
         }).addTo(map);
 
 
-        var infrastructureLayer = L.geoJson(infrastructureData);
+        var infrastructureLayer = L.geoJson(infrastructureData, options);
+
+
+
+
+        var dtcLayer = L.geoJson(dtcData, options);
+
 
         updateMap(dataLayer);
 
 
-        addUI(map, snapLayer, infrastructureLayer);
-        //        drawLegend(dataLayer);
-
+        addUI(map, snapLayer, infrastructureLayer, dtcLayer);
 
     }
+
     // end makeMap
 
-    function addUI(map, snapLayer, infrastructureLayer) {
+    function addUI(map, snapLayer, infrastructureLayer, dtcLayer, snapLabels, infraLabels, dtcLabels) {
+
+
         $('select[name]').change(function () {
             var asset = $(this).val();
             console.log(asset) // is either snap or infrastructure
 
+
             var tempLayer = L.layerGroup(); // won't add this to map
 
             // if snap
-            if(asset === "snap") {
+            if (asset === "snap") {
                 // remove the infrastructureLayer and add to tempLayer
                 tempLayer.addLayer(infrastructureLayer);
+                tempLayer.addLayer(dtcLayer)
                 map.removeLayer(infrastructureLayer);
+                map.removeLayer(dtcLayer);
                 // add the snapLayer and remove from tempLayer
                 map.addLayer(snapLayer);
                 tempLayer.removeLayer(snapLayer);
+                /*map.removeControl();*/
+                L.control.layers(null, snapLabels, { //adds a control toggle option in top right of the map
+                    collapsed: false
+                }).addTo(map);
+
             } else if (asset === "infrastructure") {
                 // to the same thing for tempLayer
                 tempLayer.addLayer(snapLayer);
+                tempLayer.addLayer(dtcLayer)
                 map.removeLayer(snapLayer);
+                map.removeLayer(dtcLayer);
                 map.addLayer(infrastructureLayer);
                 tempLayer.removeLayer(infrastructureLayer);
+                /* map.removeControl(snapLabels);*/
+                L.control.layers(null, infraLabels, { //adds a control toggle option in top right of the map
+                    collapsed: false
+                }).addTo(map);
+            } else if (asset === "dtc") {
+                tempLayer.addLayer(snapLayer);
+                tempLayer.addLayer(infrastructureLayer);
+                map.removeLayer(snapLayer);
+                map.removeLayer(infrastructureLayer);
+                map.addLayer(dtcLayer);
+                L.control.layers(null, infraLabels, { //adds a control toggle option in top right of the map
+                    collapsed: false
+                }).addTo(map);
             }
         });
     }
 
-    function updatePoints(asset) {
 
-        var layerInfo = {
-            igaLayer: {
-                source: '2',
-                color: '#3FFA5B'
-            },
-            indepLayer: {
-                source: '3',
-                color: '#D3D3D3'
-            },
-            chainLayer: {
-                source: '1',
-                color: '#FAA23F'
-            },
-            superLayer: {
-                source: '4',
-                color: '#ff0000'
-            }
 
-            //need to write layer definitions for all the other asset classes - and then recode the GEOJSONs to have different numbers.
-        };
+
+    /*  function updatePoints(asset) {
+
+            var layerInfo = {
+               /*igaLayer: {
+                   source: '2',
+                   color: '#3FFA5B'
+               },
+               indepLayer: {
+                   source: '3',
+                   color: '#D3D3D3'
+               },
+               chainLayer: {
+                   source: '1',
+                   color: '#FAA23F'
+               },
+               superLayer: {
+                   source: '4',
+                   color: '#ff0000'
+               },
+
+               farmLayer: {
+                   source: '5',
+                   color: '#3FFA5B'
+               },
+               vaLayer: {
+                   source: '6',
+                   color: '#D3D3D3'
+               },
+               miscLayer: {
+                   source: '7',
+                   color: '#FAA23F'
+               },
+               marketLayer: {
+                   source: '8',
+                   color: '#ff0000'
+               },
+               distLayer: {
+                   source: '9',
+                   color: '#3FFA5B'
+               },
+               greenLayer: {
+                   source: '10',
+                   color: '#D3D3D3'
+               },
+               auctionLayer: {
+                   source: '11',
+                   color: '#FAA23F'
+               },
+               processLayer: {
+                   source: '12',
+                   color: '#ff0000'
+               },
+               techLayer: {
+                   source: '13',
+                   color: '#FAA23F'
+               },
+               /* banksLayer: {
+                    source: '14',
+                    color: '#ff0000'
+               /*}*/
+
+    //need to write layer definitions for all the other asset classes - and then recode the GEOJSONs to have different numbers.
+    /* };
 
         var geoJsonLayers = {};
 
@@ -210,19 +364,52 @@
                     }
                 }
             }).addTo(map);
+
         }
 
-        var sourcesLabels = {
+
+        var snapLabels = {
+
             "<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
             "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
             "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
-            "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer
+            "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer,
+            "<b style='color:#3FFA5B'>Farm</b>": geoJsonLayers.farmLayer
+        }
+        var dtcLabels = {
+            "<b style='color:#D3D3D3'>Value-Added</b>": geoJsonLayers.vaLayer,
+            "<b style='color:#FAA23F'>Apiary, Orchard, Vineyard</b>": geoJsonLayers.miscLayer,
+            "<b style='color:#ff0000'>Market</b>": geoJsonLayers.marketLayer,
+            "<b style='color:#3FFA5B'>Distribution</b>": geoJsonLayers.distLayer
         }
 
-        L.control.layers(null, sourcesLabels, { //adds a control toggle option in top right of the map
-            collapsed: false
-        }).addTo(map);
-    }
+        var infraLabels = {
+
+            "<b style='color:#D3D3D3'>Greenhouse</b>": geoJsonLayers.greenLayer,
+            "<b style='color:#FAA23F'>Auction, Stockyard</b>": geoJsonLayers.auctionLayer,
+            "<b style='color:#ff0000'>Processing</b>": geoJsonLayers.processLayer,
+            "<b style='color:#FAA23F'>Technical Assistance</b>": geoJsonLayers.techLayer
+                /*"<b style='color:#ff0000'>Food Banks</b>": geoJsonLayers.banksLayer
+        }
+
+
+
+        if (asset === 'snap') {
+            L.control.layers(null, snapLabels, { //adds a control toggle option in top right of the map
+                collapsed: false
+            }).addTo(map);
+        } else if (asset === 'dtc') {
+            L.control.layers(null, dtcLabels, { //adds a control toggle option in top right of the map
+                collapsed: false
+            }).addTo(map);
+        } else if (asset === 'infrastructure') {
+            L.control.layers(null, infraLabels, { //adds a control toggle option in top right of the map
+                collapsed: false
+            }).addTo(map);
+
+
+        }
+    } //*/
 
 
     function updateMap(dataLayer) {
