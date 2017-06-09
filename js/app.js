@@ -206,7 +206,6 @@
 
 
 
-
         var dtcLayer = L.geoJson(dtcData, options);
 
 
