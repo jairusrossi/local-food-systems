@@ -35,8 +35,8 @@
                 return L.circleMarker(ll, {
                     opacity: 1,
                     weight: 2,
-                    fillOpacity: .3,
-                    color: layerInfo[layer].color,
+                    fillOpacity: .3
+
                 });
             }
         };
@@ -45,21 +45,21 @@
             weight: 1,
             stroke: 1,
             fillOpacity: .8,
-            radius: 8
+            radius: 4
         }
 
         var layerInfo = {
             igaLayer: {
                 source: '2',
-                color: '#3FFA5B'
+                color: '#ff8000'
             },
             indepLayer: {
                 source: '3',
-                color: '#D3D3D3'
+                color: '#993333'
             },
             chainLayer: {
                 source: '1',
-                color: '#FAA23F'
+                color: '#ffff00'
             },
             superLayer: {
                 source: '4',
@@ -67,23 +67,23 @@
             },
             farmLayer: {
                 source: '5',
-                color: '#3FFA5B'
+                color: '#006600'
             },
             vaLayer: {
                 source: '6',
-                color: '#D3D3D3'
+                color: '#ff8080'
             },
             miscLayer: {
                 source: '7',
-                color: '#FAA23F'
+                color: '#cccc00'
             },
             marketLayer: {
                 source: '8',
-                color: '#ff0000'
+                color: '#00cc66'
             },
             distLayer: {
                 source: '9',
-                color: '#3FFA5B'
+                color: '#000099'
             },
             greenLayer: {
                 source: '10',
@@ -152,6 +152,65 @@
             }).addTo(snapLayer);
         }
 
+        var infrastructureLayer = L.layerGroup(); // add empty layergroup to map
+
+        for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
+
+            geoJsonLayers[layer] = L.geoJson(infrastructureData, {
+
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, commonStyles);
+                },
+                filter: function (feature) {
+
+                    // create shortuts to numbers
+                    var featureNum = feature.properties.source,
+                        layerNum = +layerInfo[layer].source; // convert to number
+
+                    // if this feature is equal to layer source num
+                    if (featureNum === layerNum) {
+                        return feature; // return the feature
+                    }
+                },
+                style: function (feature) { //and symbolized according to source where 'layer' in layerInfo is still passed as the argument
+                    return {
+                        color: layerInfo[layer].color,
+                        fillColor: layerInfo[layer].color,
+                        //  radius: getRadius(feature.properties.fuel_source[layerInfo[layer].source]) //radius is defined by power generation capacity contained in the 'source' property
+                    }
+                }
+            }).addTo(infrastructureLayer);
+        }
+
+        var dtcLayer = L.layerGroup(); // add empty layergroup to map
+
+        for (var layer in layerInfo) { //takes each layer on its own and cycles through the code
+
+            geoJsonLayers[layer] = L.geoJson(dtcData, {
+
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, commonStyles);
+                },
+                filter: function (feature) {
+
+                    // create shortuts to numbers
+                    var featureNum = feature.properties.source,
+                        layerNum = +layerInfo[layer].source; // convert to number
+
+                    // if this feature is equal to layer source num
+                    if (featureNum === layerNum) {
+                        return feature; // return the feature
+                    }
+                },
+                style: function (feature) { //and symbolized according to source where 'layer' in layerInfo is still passed as the argument
+                    return {
+                        color: layerInfo[layer].color,
+                        fillColor: layerInfo[layer].color,
+                        //  radius: getRadius(feature.properties.fuel_source[layerInfo[layer].source]) //radius is defined by power generation capacity contained in the 'source' property
+                    }
+                }
+            }).addTo(dtcLayer);
+        }
 
 
         snapLabels = {
@@ -197,16 +256,24 @@
 
 
 
-        L.control.layers(null, snapLabels, { //adds a control toggle option in top right of the map
+        var snapLayerControl = L.control.layers(null, snapLabels, { //adds a control toggle option in top right of the map
+            collapsed: false
+        }).addTo(map);
+
+        var infraLayerControl = L.control.layers(null, infraLabels, { //adds a control toggle option in top right of the map
+            collapsed: false
+        }).addTo(map);
+
+        var dtcLayerControl = L.control.layers(null, dtcLabels, { //adds a control toggle option in top right of the map
             collapsed: false
         }).addTo(map);
 
 
-        var infrastructureLayer = L.geoJson(infrastructureData, options);
+        /*  var infrastructureLayer = L.geoJson(infrastructureData, options);
 
 
 
-        var dtcLayer = L.geoJson(dtcData, options);
+  var dtcLayer = L.geoJson(dtcData, options);*/
 
 
         updateMap(dataLayer);
@@ -219,6 +286,8 @@
     // end makeMap
 
     function addUI(map, snapLayer, infrastructureLayer, dtcLayer, snapLabels, infraLabels, dtcLabels) {
+
+
 
 
         $('select[name]').change(function () {
@@ -271,7 +340,7 @@
 
 
 
-    /*  function updatePoints(asset) {
+    /* function updatePoints(asset) {
 
             var layerInfo = {
                /*igaLayer: {
