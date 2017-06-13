@@ -28,7 +28,12 @@ h2 {
 }
 
 #ui-controls {
-    width: 960px;
-    margin: 10px auto;
-    /*10 pixel space between IU and the map area*/
+    background: rgba(255,255,255,.8);
+    padding: 8px 16px;
+}
+#ui-controls {
+
+}
+#ui-controls .select-container{
+    margin: 12px 0 12px;;
 }

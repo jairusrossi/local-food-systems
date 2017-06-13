@@ -39,22 +39,25 @@
         </div>
 
         <div class='col col--12 col--9-ml h180 h-full-ml'>
-            <div id='ui-controls'>
-                <!--//creates a user interface-->
-                <label>Choose a Local Food Resource Type:</label>
-                <div class='select-container'>
-                    <select name="asset" class="select">
-                        <option value="snap" selected>Stores</option>
-                        <option value="infrastructure">Infrastructure</option>
-                        <option value='dtc'>Producer to Consumer</option>
-                    </select>
-                    <div class='select-arrow'></div>
-            </div>
-        </div>
+
             <div id="map" class='viewport-twothirds viewport-full-ml bg-blue'></div>
 
         </div>
 
+    </div> <!-- end grid -->
+
+    <!-- UI element to be placed on map using Leaflet Control -->
+        <div id='ui-controls' class='w240 round'>
+            <label class="txt-h5">Local Food Resource Type:</label><br />
+            <div class='select-container'>
+                <select name="asset" class="select">
+                    <option value="snap" selected>Stores</option>
+                    <option value="infrastructure">Infrastructure</option>
+                    <option value='dtc'>Producer to Consumer</option>
+                </select>
+                <div class='select-arrow'></div>
+        </div>
+    </div>
 
 
         <script async defer src='https://api.mapbox.com/mapbox-assembly/v0.13.0/assembly.js'></script>
