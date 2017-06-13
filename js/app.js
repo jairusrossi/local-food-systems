@@ -200,7 +200,6 @@
         });
     }
 
-
     //
     //
     //       snapLabels = {
@@ -270,39 +269,39 @@
     //
     //       addUI(map, snapLayer, infrastructureLayer, dtcLayer);
 
-}
+// }
 
 // end makeMap
 
-/* function updatePoints(asset) {
-
-
-
-    var snapLabels = {
-
-        "<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
-        "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
-        "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
-        "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer,
-        "<b style='color:#3FFA5B'>Farm</b>": geoJsonLayers.farmLayer
-    }
-    var dtcLabels = {
-        "<b style='color:#D3D3D3'>Value-Added</b>": geoJsonLayers.vaLayer,
-        "<b style='color:#FAA23F'>Apiary, Orchard, Vineyard</b>": geoJsonLayers.miscLayer,
-        "<b style='color:#ff0000'>Market</b>": geoJsonLayers.marketLayer,
-        "<b style='color:#3FFA5B'>Distribution</b>": geoJsonLayers.distLayer
-    }
-
-    var infraLabels = {
-
-        "<b style='color:#D3D3D3'>Greenhouse</b>": geoJsonLayers.greenLayer,
-        "<b style='color:#FAA23F'>Auction, Stockyard</b>": geoJsonLayers.auctionLayer,
-        "<b style='color:#ff0000'>Processing</b>": geoJsonLayers.processLayer,
-        "<b style='color:#FAA23F'>Technical Assistance</b>": geoJsonLayers.techLayer
-            /*"<b style='color:#ff0000'>Food Banks</b>": geoJsonLayers.banksLayer
-    }
-
-
-} //*/
+// function updatePoints(asset) {
+//
+//
+//
+//     var snapLabels = {
+//
+//         "<b style='color:#3FFA5B'>IGA</b>": geoJsonLayers.igaLayer,
+//         "<b style='color:#D3D3D3'>Independent Grocer</b>": geoJsonLayers.indepLayer,
+//         "<b style='color:#FAA23F'>Chain Grocer</b>": geoJsonLayers.chainLayer,
+//         "<b style='color:#ff0000'>Superstore</b>": geoJsonLayers.superLayer,
+//         "<b style='color:#3FFA5B'>Farm</b>": geoJsonLayers.farmLayer
+//     }
+//     var dtcLabels = {
+//         "<b style='color:#D3D3D3'>Value-Added</b>": geoJsonLayers.vaLayer,
+//         "<b style='color:#FAA23F'>Apiary, Orchard, Vineyard</b>": geoJsonLayers.miscLayer,
+//         "<b style='color:#ff0000'>Market</b>": geoJsonLayers.marketLayer,
+//         "<b style='color:#3FFA5B'>Distribution</b>": geoJsonLayers.distLayer
+//     }
+//
+//     var infraLabels = {
+//
+//         "<b style='color:#D3D3D3'>Greenhouse</b>": geoJsonLayers.greenLayer,
+//         "<b style='color:#FAA23F'>Auction, Stockyard</b>": geoJsonLayers.auctionLayer,
+//         "<b style='color:#ff0000'>Processing</b>": geoJsonLayers.processLayer,
+//         "<b style='color:#FAA23F'>Technical Assistance</b>": geoJsonLayers.techLayer
+//             /*"<b style='color:#ff0000'>Food Banks</b>": geoJsonLayers.banksLayer
+//     }
+//
+//
+// }
 
 })();
