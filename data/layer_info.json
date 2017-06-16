@@ -1,19 +1,19 @@
 {
     "igaLayer": {
         "source": "2",
-        "color": "#ff8000"
+        "color": "#00A388"
     },
     "indepLayer": {
         "source": "3",
-        "color": "#993333"
+        "color": "#901811"
     },
     "chainLayer": {
         "source": "1",
-        "color": "#ffff00"
+        "color": "#D0A825"
     },
     "superLayer": {
         "source": "4",
-        "color": "#ff0000"
+        "color": "#41434A"
     },
     "farmLayer": {
         "source": "5",
@@ -21,15 +21,15 @@
     },
     "vaLayer": {
         "source": "6",
-        "color": "#ff8080"
+        "color": "#8E2800"
     },
     "miscLayer": {
         "source": "7",
-        "color": "#cccc00"
+        "color": "#FFF0A5"
     },
     "marketLayer": {
         "source": "8",
-        "color": "#00cc66"
+        "color": "#FFB03B"
     },
     "distLayer": {
         "source": "9",
@@ -37,19 +37,19 @@
     },
     "greenLayer": {
         "source": "10",
-        "color": "#D3D3D3"
+        "color": "#515932"
     },
     "auctionLayer": {
         "source": "11",
-        "color": "#FAA23F"
+        "color": "#FFB03B"
     },
     "processLayer": {
         "source": "12",
-        "color": "#ff0000"
+        "color": "#B64926"
     },
     "techLayer": {
         "source": "13",
-        "color": "#FAA23F"
+        "color": "#FFd34e"
     },
     "banksLayer": {
         "source": "14",

@@ -31,6 +31,7 @@
 
                 <footer class='mt12 bg-gray-faint txt-s'>
                     <ul>
+
                         <li>Explore the raw <a class='link' href='#'>data</a></li>
                         <li>Map authored by Jairus Rossi</li>
                         </p>
@@ -40,17 +41,33 @@
 
         <div class='col col--12 col--9-ml h180 h-full-ml'>
 
-
+            <div id='legend' class='legend'>
+                <h4>Resource Legend</h4>
+                <div><span style='background-color: #00A388'></span>IGAs</div>
+                <div><span style='background-color: #901811'></span>Independent Grocery</div>
+                <div><span style='background-color: #D0A825'></span>Chain Grocery</div>
+                <div><span style='background-color: #41434A'></span>Superstore</div>
+                <div><span style='background-color: #006600'></span>Farm</div>
+                <div><span style='background-color: #8E2800'></span>Value-Added</div>
+                <div><span style='background-color: #FFF0A5'></span>Apiaries, Vineyards, and Orchards</div>
+                <div><span style='background-color: #FFB03B'></span>Farmers Market</div>
+                <div><span style='background-color: #B64926'></span>Distributors</div>
+                <div><span style='background-color: #515932'></span>Greenhouses</div>
+                <div><span style='background-color: #A29354'></span>Processing</div>
+                <div><span style='background-color: #FFd34e'></span>Technical Assistance</div>
+                <div><span style='background-color: #EA2E49'></span>Food Banks</div>
+            </div>
 
             <div id="map" class='viewport-twothirds viewport-full-ml bg-blue'></div>
         </div>
-
-
-
     </div>
     <!-- end grid -->
 
+    <div id='info' class='py6 px12 bg-white border border--grey-light round absolute wmax200'>
+        <p class='Name'> <span></span>: <span class='txt-1 txt-bold'></span></p>
+        <p class='Business'> <span></span>: <span class='txt-1 txt-bold'></span></p>
 
+    </div>
     <!-- UI element to be placed on map using Leaflet Control -->
     <div id='ui-controls' class='w240 round'>
         <label class="txt-h5">Local Food Resource Type:</label>
@@ -65,11 +82,12 @@
         </div>
     </div>
 
-    <div id='info' class='py6 px12 bg-white border border--grey-light round absolute wmax50'>
-        <p class='Name'> <span></span>: <span class='txt-1 txt-bold'></span></p>
-        <p class='Business'> <span></span>: <span class='txt-1 txt-bold'></span></p>
 
-    </div>
+
+
+
+
+
 
     <script async defer src='https://api.mapbox.com/mapbox-assembly/v0.13.0/assembly.js'></script>
     <!--        <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>-->

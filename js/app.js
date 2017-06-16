@@ -62,6 +62,7 @@
         // send these layers into the UI for switching on and off
         createDotLayerUI(dotLayers, snapLayer, infrastructureLayer, dtcLayer);
         retrieveInfo(snapLayer, infrastructureLayer, dtcLayer);
+        //        drawLegend();
     }
 
     function makeChoropleth(counties) {
@@ -220,6 +221,7 @@
     function retrieveInfo(snapLayer, infrastructureLayer, dtcLayer) {
         var info = $('#info');
 
+
         snapLayer.eachLayer(function (layer) {
 
             layer.on('mouseover', function (e) {
@@ -253,6 +255,7 @@
 
         });
 
+
         $(document).mousemove(function (e) {
 
             // first offset from the mouse position of the info window
@@ -265,6 +268,31 @@
         });
     }
 
+
+    /*function drawLegend() {
+
+        // create a new Leaflet control object, and position it top left
+        var legendControl = L.control({
+            position: 'topleft'
+        });
+
+        // when the legend is added to the map
+        legendControl.onAdd = function (map) {
+
+            // create a div element with an class attribute of legend
+            var div = L.DomUtil.create('div', 'legend');
+
+            // return the div to the method
+            return div;
+
+        };
+        
+        var legend = $('.legend').html("<h3>" + labels[attributeValue] + "</h3>")
+
+        // add the empty legend div to the map
+        legendControl.addTo(map);
+
+    }*/
 
     /*
 
