@@ -4,8 +4,6 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
-
-
 li {
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
@@ -28,12 +26,23 @@ h2 {
 }
 
 #ui-controls {
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
     padding: 8px 16px;
 }
-#ui-controls {
 
+#ui-controls {}
+
+#ui-controls .select-container {
+    margin: 12px 0 12px;
+    ;
 }
-#ui-controls .select-container{
-    margin: 12px 0 12px;;
+
+.info {
+    padding: 6px 8px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: right;
+    position: absolute
 }
