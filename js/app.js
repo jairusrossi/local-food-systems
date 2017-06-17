@@ -219,7 +219,7 @@
     }
 
     function retrieveInfo(snapLayer, infrastructureLayer, dtcLayer) {
-        var info = $('#info');
+        var info = $('#info').hide();
 
 
         snapLayer.eachLayer(function (layer) {
@@ -230,6 +230,9 @@
                 $(".Name span").html('(Store Name ' + props["Store_Name"] + ')');
                 $(".Business span").html('(Store Type ' + props["category"] + ')');
 
+            });
+            layer.on('mouseout', function(){
+                info.hide();
             });
 
         });
@@ -242,6 +245,10 @@
                 $(".Business span").html('(Resource Type ' + props["Resource"] + ')');
             });
 
+            layer.on('mouseout', function(){
+                info.hide();
+            });
+
         });
 
         dtcLayer.eachLayer(function (layer) {
@@ -251,6 +258,10 @@
                 $(".Name span").html('(Name ' + props["Name"] + ')');
                 $(".Business span").html('(Resource Type ' + props["Resource"] + ')');
 
+            });
+
+            layer.on('mouseout', function(){
+                info.hide();
             });
 
         });
@@ -266,6 +277,7 @@
 
 
         });
+
     }
 
 

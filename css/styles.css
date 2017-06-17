@@ -55,12 +55,21 @@ h2 {
 }
 
 
-/*.info {
+#info {
     padding: 6px 8px;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 3px;
+    max-width: 300px;
     text-align: right;
-    position: absolute
-}*/
+    position: absolute;
+    z-index: 900;
+}
+
+#legend {
+    position: absolute;
+    z-index: 900;
+    right: 12px;
+    bottom: 18px;
+}
