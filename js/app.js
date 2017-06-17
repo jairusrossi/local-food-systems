@@ -218,7 +218,7 @@
             // add the selected layergroup to dotLayers
             dotLayers.addLayer(layerKey[targetLayer]);
 
-            selectLegend(targetLayer);
+            selectLegend(targetLayer);   //push 'asset' through? data
         });
     }
 
