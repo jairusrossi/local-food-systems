@@ -219,7 +219,7 @@
     }
 
     function retrieveInfo(snapLayer, infrastructureLayer, dtcLayer) {
-        var info = $('#info');
+        var info = $('#info').hide();
 
 
         snapLayer.eachLayer(function (layer) {
