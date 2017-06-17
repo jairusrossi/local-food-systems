@@ -6,8 +6,8 @@
         center: [
             37.4, -83.4
         ],
-        zoom: 8,
-        minZoom: 8,
+        zoom: 7,
+        minZoom: 7,
         maxZoom: 11,
         maxBounds: L.latLngBounds([
             42, -88
@@ -62,6 +62,7 @@
         // send these layers into the UI for switching on and off
         createDotLayerUI(dotLayers, snapLayer, infrastructureLayer, dtcLayer);
         retrieveInfo(snapLayer, infrastructureLayer, dtcLayer);
+
         //        drawLegend();
     }
 
@@ -172,6 +173,8 @@
         }
 
         return layerGroup;
+        $('.legend2').hide();
+        $('.legend3').hide();
 
     }
 
@@ -215,8 +218,26 @@
             // add the selected layergroup to dotLayers
             dotLayers.addLayer(layerKey[targetLayer]);
 
+            selectLegend(targetLayer);
         });
     }
+
+    function selectLegend(targetLayer) {
+        if ('targetLayer' == 'snap') {
+            $('.legend').show();
+            $('.legend2').hide();
+            $('.legend3').hide();
+        } else if ('targetLayer' == 'infrastructure') {
+            $('.legend').hide();
+            $('.legend2').hide();
+            $('.legend3').show();
+        } else if ('targetLayer' == 'dtc') {
+            $('.legend').hide();
+            $('.legend2').show();
+            $('.legend3').hide();
+        }
+    }
+
 
     function retrieveInfo(snapLayer, infrastructureLayer, dtcLayer) {
         var info = $('#info').hide();
@@ -227,11 +248,11 @@
             layer.on('mouseover', function (e) {
                 var props = e.layer.feature.properties;
                 info.removeClass('none').show();
-                $(".Name span").html('(Store Name ' + props["Store_Name"] + ')');
-                $(".Business span").html('(Store Type ' + props["category"] + ')');
+                $(".Name span").html(props["Store_Name"]);
+                $(".Business span").html('Store Type: ' + props["category"]);
 
             });
-            layer.on('mouseout', function(){
+            layer.on('mouseout', function () {
                 info.hide();
             });
 
@@ -241,11 +262,11 @@
             layer.on('mouseover', function (e) {
                 var props = e.layer.feature.properties;
                 info.removeClass('none').show();
-                $(".Name span").html('(Name ' + props["Name"] + ')');
-                $(".Business span").html('(Resource Type ' + props["Resource"] + ')');
+                $(".Name span").html(props["Name"]);
+                $(".Business span").html('Resource Type: ' + props["Resource "]);
             });
 
-            layer.on('mouseout', function(){
+            layer.on('mouseout', function () {
                 info.hide();
             });
 
@@ -255,12 +276,12 @@
             layer.on('mouseover', function (e) {
                 var props = e.layer.feature.properties;
                 info.removeClass('none').show();
-                $(".Name span").html('(Name ' + props["Name"] + ')');
-                $(".Business span").html('(Resource Type ' + props["Resource"] + ')');
+                $(".Name span").html(props["Name"]);
+                $(".Business span").html('Resource Type: ' + props["Resource"]);
 
             });
 
-            layer.on('mouseout', function(){
+            layer.on('mouseout', function () {
                 info.hide();
             });
 

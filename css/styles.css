@@ -10,6 +10,14 @@ li {
     margin-bottom: 6px;
 }
 
+
+/*h1 {
+        font-family: "Work Sans", sans-serif;
+        font-size: 32px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }*/
+
 h2 {
     font-family: "Work Sans", sans-serif;
     font-size: 20px;
@@ -28,11 +36,13 @@ h2 {
     ;
 }
 
-.legend {
+.legend,
+legend2,
+legend3 {
     font-family: "Work Sans", sans-serif;
     background-color: #fff;
     border-radius: 3px;
-    bottom: 30px;
+    top: 300px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 10px;
@@ -46,7 +56,9 @@ h2 {
     margin: 0 0 10px;
 }
 
-.legend div span {
+.legend div span,
+legend2 div span,
+legend3 div span {
     border-radius: 50%;
     display: inline-block;
     height: 10px;
@@ -54,22 +66,21 @@ h2 {
     width: 10px;
 }
 
-
 #info {
     padding: 6px 8px;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    max-width: 300px;
+    max-width: 150px;
     text-align: right;
     position: absolute;
     z-index: 900;
 }
 
-#legend {
+#legend,
+#legend2,
+#legend3 {
     position: absolute;
     z-index: 900;
-    right: 12px;
-    bottom: 18px;
 }
