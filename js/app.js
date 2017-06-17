@@ -63,6 +63,8 @@
         createDotLayerUI(dotLayers, snapLayer, infrastructureLayer, dtcLayer);
         retrieveInfo(snapLayer, infrastructureLayer, dtcLayer);
 
+
+
         //        drawLegend();
     }
 
@@ -170,7 +172,9 @@
                     }
                 }
             }).addTo(layerGroup);
-        }
+
+        };
+
 
         return layerGroup;
         $('.legend2').hide();
@@ -218,7 +222,7 @@
             // add the selected layergroup to dotLayers
             dotLayers.addLayer(layerKey[targetLayer]);
 
-            selectLegend(targetLayer);   //push 'asset' through? data
+            selectLegend(targetLayer); //push 'asset' through? data
         });
     }
 
@@ -246,14 +250,17 @@
         snapLayer.eachLayer(function (layer) {
 
             layer.on('mouseover', function (e) {
+
                 var props = e.layer.feature.properties;
                 info.removeClass('none').show();
                 $(".Name span").html(props["Store_Name"]);
                 $(".Business span").html('Store Type: ' + props["category"]);
+                highlightFeature(e);
 
             });
-            layer.on('mouseout', function () {
+            layer.on('mouseout', function (e) {
                 info.hide();
+                unhighlightFeature(e);
             });
 
         });
@@ -299,6 +306,25 @@
 
         });
 
+    }
+
+    function highlightFeature(e) {
+
+        var layer = e.target
+        layer.setStyle({
+            color: '#FFFF00',
+            weight: 2
+        });
+    }
+
+    function unhighlightFeature(e) {
+
+        var layer = e.target
+        layer.setStyle({
+
+            color: 'none',
+            weight: 2
+        });
     }
 
 
