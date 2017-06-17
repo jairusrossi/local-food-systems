@@ -27,6 +27,8 @@
         radius: 6
     }
 
+
+    // // load the data
     d3.queue().defer(d3.json, "data/snap.json")
         // .defer(d3.json, "data/local_counites.json") // local copy in case CARTO's server is quirky
         .defer(d3.json, "https://jairusrossi.carto.com/api/v2/sql?format=GeoJSON&q=SELECT * FROM local_food_counties WHERE state='21'")
@@ -63,9 +65,9 @@
         createDotLayerUI(dotLayers, snapLayer, infrastructureLayer, dtcLayer);
         retrieveInfo(snapLayer, infrastructureLayer, dtcLayer);
 
+        // add legend to map
+        drawLegend();
 
-
-        //        drawLegend();
     }
 
     function makeChoropleth(counties) {
@@ -177,8 +179,6 @@
 
 
         return layerGroup;
-        $('.legend2').hide();
-        $('.legend3').hide();
 
     }
 
@@ -227,18 +227,18 @@
     }
 
     function selectLegend(targetLayer) {
-        if ('targetLayer' == 'snap') {
-            $('.legend').show();
-            $('.legend2').hide();
-            $('.legend3').hide();
-        } else if ('targetLayer' == 'infrastructure') {
-            $('.legend').hide();
-            $('.legend2').hide();
-            $('.legend3').show();
-        } else if ('targetLayer' == 'dtc') {
-            $('.legend').hide();
-            $('.legend2').show();
-            $('.legend3').hide();
+        if (targetLayer == 'snap') {
+            $('#legend').show();
+            $('#legend2').hide();
+            $('#legend3').hide();
+        } else if (targetLayer == 'infrastructure') {
+            $('#legend').hide();
+            $('#legend2').hide();
+            $('#legend3').show();
+        } else if (targetLayer == 'dtc') {
+            $('#legend').hide();
+            $('#legend2').show();
+            $('#legend3').hide();
         }
     }
 
@@ -252,7 +252,7 @@
             layer.on('mouseover', function (e) {
 
                 var props = e.layer.feature.properties;
-                info.removeClass('none').show();
+                info.show();
                 $(".Name span").html(props["Store_Name"]);
                 $(".Business span").html('Store Type: ' + props["category"]);
                 highlightFeature(e);
@@ -268,7 +268,7 @@
         infrastructureLayer.eachLayer(function (layer) {
             layer.on('mouseover', function (e) {
                 var props = e.layer.feature.properties;
-                info.removeClass('none').show();
+                info.show();
                 $(".Name span").html(props["Name"]);
                 $(".Business span").html('Resource Type: ' + props["Resource "]);
             });
@@ -282,7 +282,7 @@
         dtcLayer.eachLayer(function (layer) {
             layer.on('mouseover', function (e) {
                 var props = e.layer.feature.properties;
-                info.removeClass('none').show();
+                info.show();
                 $(".Name span").html(props["Name"]);
                 $(".Business span").html('Resource Type: ' + props["Resource"]);
 
@@ -328,30 +328,27 @@
     }
 
 
-    /*function drawLegend() {
+    function drawLegend() {
 
-        // create a new Leaflet control object, and position it top left
-        var legendControl = L.control({
-            position: 'topleft'
+        // add legends to the map
+        var legendsControl = L.control({
+            position: 'bottomright'
         });
 
-        // when the legend is added to the map
-        legendControl.onAdd = function (map) {
+        legendsControl.onAdd = function (map) {
 
-            // create a div element with an class attribute of legend
-            var div = L.DomUtil.create('div', 'legend');
+            var element = L.DomUtil.get("legends");
 
-            // return the div to the method
-            return div;
+            L.DomEvent.disableScrollPropagation(element);
 
-        };
-        
-        var legend = $('.legend').html("<h3>" + labels[attributeValue] + "</h3>")
+            L.DomEvent.disableClickPropagation(element);
 
-        // add the empty legend div to the map
-        legendControl.addTo(map);
+            return element;
+    }
 
-    }*/
+    legendsControl.addTo(map);
+
+}
 
     /*
 

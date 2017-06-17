@@ -40,32 +40,6 @@
         </div>
 
         <div class='col col--12 col--9-ml h180 h-full-ml'>
-
-            <div id='legend' class='legend'>
-                <h4>Retail Legend</h4>
-                <div><span style='background-color: #00A388'></span>IGAs</div>
-                <div><span style='background-color: #901811'></span>Independent Grocery</div>
-                <div><span style='background-color: #D0A825'></span>Chain Grocery</div>
-                <div><span style='background-color: #41434A'></span>Superstore</div>
-            </div>
-
-            <div id='legend2' class='legend'>
-                <h4>Producer to Consumer Legend</h4>
-                <div><span style='background-color: #006600'></span>Farm</div>
-                <div><span style='background-color: #8E2800'></span>Value-Added</div>
-                <div><span style='background-color: #FFF0A5'></span>Apiaries, Vineyards, and Orchards</div>
-                <div><span style='background-color: #FFB03B'></span>Farmers Market</div>
-            </div>
-
-            <div id='legend3' class='legend'>
-                <h4>Infrastructure Legend</h4>
-                <div><span style='background-color: #B64926'></span>Distributors</div>
-                <div><span style='background-color: #515932'></span>Greenhouses</div>
-                <div><span style='background-color: #A29354'></span>Processing</div>
-                <div><span style='background-color: #FFd34e'></span>Technical Assistance</div>
-                <div><span style='background-color: #EA2E49'></span>Food Banks</div>
-            </div>
-
             <div id="map" class='viewport-twothirds viewport-full-ml bg-blue'></div>
         </div>
     </div>
@@ -89,13 +63,33 @@
             <div class='select-arrow'></div>
         </div>
     </div>
+  <!-- #legends element to be placed on map using Leaflet Control -->
+  <div id="legends">
+    <div id='legend' class='legend'>
+        <h4>Retail Legend</h4>
+        <div><span style='background-color: #00A388'></span>IGAs</div>
+        <div><span style='background-color: #901811'></span>Independent Grocery</div>
+        <div><span style='background-color: #D0A825'></span>Chain Grocery</div>
+        <div><span style='background-color: #41434A'></span>Superstore</div>
+    </div>
 
+    <div id='legend2' class='legend'>
+        <h4>Producer to Consumer Legend</h4>
+        <div><span style='background-color: #006600'></span>Farm</div>
+        <div><span style='background-color: #8E2800'></span>Value-Added</div>
+        <div><span style='background-color: #FFF0A5'></span>Apiaries, Vineyards, and Orchards</div>
+        <div><span style='background-color: #FFB03B'></span>Farmers Market</div>
+    </div>
 
-
-
-
-
-
+    <div id='legend3' class='legend'>
+        <h4>Infrastructure Legend</h4>
+        <div><span style='background-color: #B64926'></span>Distributors</div>
+        <div><span style='background-color: #515932'></span>Greenhouses</div>
+        <div><span style='background-color: #A29354'></span>Processing</div>
+        <div><span style='background-color: #FFd34e'></span>Technical Assistance</div>
+        <div><span style='background-color: #EA2E49'></span>Food Banks</div>
+    </div>
+  <div>
 
     <script async defer src='https://api.mapbox.com/mapbox-assembly/v0.13.0/assembly.js'></script>
     <!--        <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>-->

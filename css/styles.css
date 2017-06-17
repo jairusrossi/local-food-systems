@@ -36,9 +36,31 @@ h2 {
     ;
 }
 
-.legend,
-legend2,
-legend3 {
+#info {
+    padding: 6px 8px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    max-width: 150px;
+    text-align: right;
+    position: absolute;
+    z-index: 900;
+}
+
+#legend,
+#legend2,
+#legend3 {
+    /*position: absolute;
+    z-index: 1000;*/
+}
+/* hide 2nd two legends */
+#legend2,
+#legend3{
+    display: none;
+}
+
+.legend{
     font-family: "Work Sans", sans-serif;
     background-color: #fff;
     border-radius: 3px;
@@ -46,7 +68,6 @@ legend3 {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 10px;
-    position: absolute;
     right: 10px;
     z-index: 1;
 }
@@ -64,23 +85,4 @@ legend3 div span {
     height: 10px;
     margin-right: 5px;
     width: 10px;
-}
-
-#info {
-    padding: 6px 8px;
-    font-size: 1em;
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    max-width: 150px;
-    text-align: right;
-    position: absolute;
-    z-index: 900;
-}
-
-#legend,
-#legend2,
-#legend3 {
-    position: absolute;
-    z-index: 900;
 }
