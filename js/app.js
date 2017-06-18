@@ -175,6 +175,19 @@
                         fillColor: layerInfo[layer].color,
 
                     }
+                },
+                onEachFeature: function(feature, layer) {
+                    layer.on('mouseover', function() {
+                        layer.setStyle({
+                            color: '#FFFF00',
+                            weight: 2
+                        })
+                    }).on('mouseout', function() {
+                        layer.setStyle({
+                            color: 'none',
+                            weight: 2
+                        });
+                    });
                 }
             }).addTo(layerGroup);
 
@@ -253,17 +266,16 @@
         snapLayer.eachLayer(function (layer) {
 
             layer.on('mouseover', function (e) {
-
                 var props = e.layer.feature.properties;
                 info.show();
                 $(".Name span").html(props["Store_Name"]);
                 $(".Business span").html('Store Type: ' + props["category"]);
-                highlightFeature(e);
+               // highlightFeature(layer);
 
             });
             layer.on('mouseout', function (e) {
                 info.hide();
-                unhighlightFeature(e);
+              //  unhighlightFeature(layer);
             });
 
         });
@@ -311,18 +323,16 @@
 
     }
 
-    function highlightFeature(e) {
+    function highlightFeature(layer) {
 
-        var layer = e.target
         layer.setStyle({
             color: '#FFFF00',
             weight: 2
         });
     }
 
-    function unhighlightFeature(e) {
+    function unhighlightFeature(layer) {
 
-        var layer = e.target
         layer.setStyle({
 
             color: 'none',
