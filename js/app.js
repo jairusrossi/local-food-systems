@@ -176,16 +176,20 @@
 
                     }
                 },
-                onEachFeature: function(feature, layer) {
-                    layer.on('mouseover', function() {
+                onEachFeature: function (feature, layer) {
+                    layer.on('mouseover', function () {
                         layer.setStyle({
                             color: '#FFFF00',
-                            weight: 2
+                            weight: 2,
+                            fillOpacity: .4,
+                            radius: 12
                         })
-                    }).on('mouseout', function() {
+                    }).on('mouseout', function () {
                         layer.setStyle({
                             color: 'none',
-                            weight: 2
+                            weight: 2,
+                            fillOpacity: .8,
+                            radius: 6
                         });
                     });
                 }
@@ -270,12 +274,12 @@
                 info.show();
                 $(".Name span").html(props["Store_Name"]);
                 $(".Business span").html('Store Type: ' + props["category"]);
-               // highlightFeature(layer);
+                // highlightFeature(layer);
 
             });
             layer.on('mouseout', function (e) {
                 info.hide();
-              //  unhighlightFeature(layer);
+                //  unhighlightFeature(layer);
             });
 
         });
@@ -314,8 +318,8 @@
 
             // first offset from the mouse position of the info window
             info.css({
-                "left": e.pageX + 6,
-                "top": e.pageY - 25
+                "left": e.pageX + 10,
+                "top": e.pageY - 70
             });
 
 

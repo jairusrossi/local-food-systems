@@ -72,26 +72,29 @@ p {
     font-size: 1em;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    width: 160px;
+    border-radius: 3px;
+    max-width: 100px;
+    bottom: 20px
 }
 
 .legend4 span {
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 0 10px 4px 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 5px;
+    width: 10px;
 }
 
 .legend {
     font-family: "Work Sans", sans-serif;
     background-color: #fff;
     border-radius: 3px;
-    /*top: 300px;*/
+    bottom: 25px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 10px;
     right: 10px;
+    left: 1px;
     z-index: 1;
 }
 
