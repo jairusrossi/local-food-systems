@@ -67,6 +67,7 @@
 
         // add legend to map
         drawLegend();
+        otherLegend();
 
     }
 
@@ -99,7 +100,7 @@
             layer.setStyle({
                 fillColor: getColor(props[attr], breaks)
             });
-            //            updateLegend(breaks);
+
         });
     }
 
@@ -122,8 +123,10 @@
             return [cluster[0], cluster.pop()];
         });
 
+
         //return array of arrays, e.g., [[0.24,0.25], [0.26, 0.37], etc]
         return breaks;
+
     }
 
     function getColor(d, breaks) {
@@ -344,11 +347,36 @@
             L.DomEvent.disableClickPropagation(element);
 
             return element;
+        }
+
+        legendsControl.addTo(map);
+
     }
 
-    legendsControl.addTo(map);
+    function otherLegend() {
 
-}
+        // create a new Leaflet control object, and position it top left
+        var legendControl = L.control({
+            position: 'bottomleft'
+        });
+
+        // when the legend is added to the map
+        legendControl.onAdd = function (map) {
+
+            // create a div element with an class attribute of legend
+            var div = L.DomUtil.get("legend4");
+            L.DomEvent.disableScrollPropagation(div);
+
+            L.DomEvent.disableClickPropagation(div);
+
+            // return the div to the method
+            return div;
+
+        }
+
+        legendControl.addTo(map);
+    }
+
 
     /*
 
