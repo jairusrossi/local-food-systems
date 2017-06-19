@@ -74,7 +74,6 @@ p {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     max-width: 100px;
-    bottom: 20px;
 }
 
 .legend4 span {
@@ -96,7 +95,7 @@ p {
     right: 10px;
     left: 1px;
     z-index: 1;
-    bottom: 20
+    bottom: 100
 }
 
 .legend h4 {
