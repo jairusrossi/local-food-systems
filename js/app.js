@@ -19,7 +19,6 @@
     }).addTo(map);
 
 
-
     var commonStyles = {
         weight: 1,
         stroke: 1,
