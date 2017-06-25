@@ -2,7 +2,6 @@
 
 body {
     font-family: "Work Sans", sans-serif;
-   
 }
 
 li {
@@ -42,7 +41,7 @@ p {
 #info {
     font-family: "Work Sans", sans-serif;
     padding: 6px 8px;
-    font-size: 1em;
+    font-size: .6em;
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 3px;

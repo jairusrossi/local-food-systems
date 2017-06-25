@@ -101,6 +101,7 @@
             });
 
         });
+
     }
 
     function getClassBreaks(dataLayer) {
@@ -126,7 +127,9 @@
         //return array of arrays, e.g., [[0.24,0.25], [0.26, 0.37], etc]
         return breaks;
 
+
     }
+
 
     function getColor(d, breaks) {
         // function accepts a single normalized data attribute value
@@ -272,7 +275,8 @@
                 var props = e.layer.feature.properties;
                 info.show();
                 $(".Name span").html(props["Store_Name"]);
-                $(".Business span").html('Store Type: ' + props["category"]);
+                $(".Business span").html(props["Address"] + "<br>" + props['City'] + "<br>" + props["Zip5"]);
+
                 // highlightFeature(layer);
 
             });
@@ -288,7 +292,7 @@
                 var props = e.layer.feature.properties;
                 info.show();
                 $(".Name span").html(props["Name"]);
-                $(".Business span").html('Resource Type: ' + props["Resource "]);
+                $(".Business span").html("Industry Type: " + props['Industry'] + "<br>" + props["ADDRESS"] + "<br>" + props['CITY'] + "<br>" + props["ZIP"]);
             });
 
             layer.on('mouseout', function () {
@@ -302,7 +306,7 @@
                 var props = e.layer.feature.properties;
                 info.show();
                 $(".Name span").html(props["Name"]);
-                $(".Business span").html('Resource Type: ' + props["Resource"]);
+                $(".Business span").html(props["ADDRESS"] + "<br>" + props['CITY'] + "<br>" + props["ZIP"]);
 
             });
 

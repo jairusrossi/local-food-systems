@@ -28,16 +28,13 @@
             <div class='h-full scroll-auto mt6 shadow-darken10'>
 
                 <h2 class='txt-m color-yellow-dark mx12 mt18 mb12'>This map shows assets related to the food system in eastern Kentucky. Mapped locations represent areas of food production, exchange, processing, and technical expertise. </h2>
-                <h2 class='txt-l mx6 align-center color-blue-dark'>How to Use this Map:</h2>
-                <p class='txt-s mb6 mx12 color-blue-dark'>Select the resource type of interest in the dropdown box in the top-right corner. New points will appear based on the category selected.</p>
-                <p class='txt-s mx12 color-blue-dark'> The legend in the bottom right corner will also change based on this category. If your mouse arrow hovers over a point on the map, information about that business will appear.</p>
+
 
                 <footer class='mt6 mb12 txt-s'>
                     <h2 class='txt-m mx12 align-center'>Information:</h2>
                     <ul>
-                        <li class='mx12 txt-s'>Data gathered from <a class='link' href='http://kadisonline.org/'>KADIS,</a> the USDA
-                            <a class='link' href='https://www.fns.usda.gov/snap-retailer-data'> SNAP</a> program and <a class='link' href='https://quickstats.nass.usda.gov/'> 2012 Ag Census</a>, the KDA
-                            <a class='link' href='http://www.kcard.info/'>KCARD</a>.
+                        <li class='mx12 txt-s'>Data gathered from <a class='link' href='http://kadisonline.org/'>KADIS,  <a class='link' href='http://www.kcard.info/'>KCARD</a> the USDA
+                            <a class='link' href='https://www.fns.usda.gov/snap-retailer-data'> SNAP</a> program, and the USDA <a class='link' href='https://quickstats.nass.usda.gov/'> 2012 Ag Census</a>.
 
                         </li>
                         <ul>
@@ -55,8 +52,8 @@
     <!-- end grid -->
 
     <div id='info' class='py6 px12 bg-white border border--grey-light round absolute align-center shadow-darken50 wmax300'>
-        <p class='Name'> <span class='align-center mt12 bg-white txt-s'></span></p>
-        <p class='Business'> <span class=' align-center mt12 bg-white txt-s'></span></p>
+        <p class='Name'> <span class='align-center mt12 bg-white txt-xs'></span></p>
+        <p class='Business'> <span class=' align-center mt12 bg-white txt-xs'></span></p>
 
     </div>
     <!-- UI element to be placed on map using Leaflet Control -->
@@ -76,7 +73,7 @@
     <!-- #legends element to be placed on map using Leaflet Control -->
     <div id="legends">
         <div id='legend' class='legend shadow-darken50 round'>
-            <h4>Retail Legend</h4>
+            <h4>Retail Outlets</h4>
             <div><span style='background-color: #00A388'></span>IGAs</div>
             <div><span style='background-color: #901811'></span>Independent Grocery</div>
             <div><span style='background-color: #D0A825'></span>Chain Grocery</div>
@@ -84,7 +81,7 @@
         </div>
 
         <div id='legend2' class='legend shadow-darken50 round'>
-            <h4>Producer to Consumer Legend</h4>
+            <h4>Direct Farm Sales</h4>
             <div><span style='background-color: #006600'></span>Farm</div>
             <div><span style='background-color: #8E2800'></span>Value-Added</div>
             <div><span style='background-color: #FFF0A5'></span>Apiaries, Vineyards, and Orchards</div>
@@ -92,7 +89,7 @@
         </div>
 
         <div id='legend3' class='legend shadow-darken50 round'>
-            <h4>Infrastructure Legend</h4>
+            <h4>Infrastructure Assets</h4>
             <div><span style='background-color: #000099'></span>Distributors</div>
             <div><span style='background-color: #515932'></span>Greenhouses</div>
             <div><span style='background-color: #B64926'></span>Processing</div>
